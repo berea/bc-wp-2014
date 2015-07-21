@@ -1,0 +1,121 @@
+/* layout955-callouts.css */
+/* Updated July 14, 2011 by Cary Hazelwood */
+/* All modifications to this file must be approved by Cary Hazelwood */
+
+/* .callout */
+
+/* LEFT CALLOUTS */
+/* ============= */
+/* Use the following code for a left callout: */
+/*
+
+   <span class="callout-left">ENTER YOUR TEXT HERE</span>
+
+*/
+
+/* RIGHT CALLOUTS */
+/* ============== */
+/* Use the following code for a right callout: */
+/*
+
+   <span class="callout-right">ENTER YOUR TEXT HERE</span>
+
+*/
+
+.callout-left {
+  clear:both;
+  float:left;
+  display:block;
+  width:210px;
+  padding:20px 0 20px 20px;
+  margin-right:20px;
+  font-family:Georgia, "Times New Roman", Times, serif;
+  font-size:22px;
+  font-weight: normal;
+  line-height:26px;
+  border-bottom:1px dotted #005a8b;
+  border-top:1px dotted #005a8b; 
+  margin-bottom:10px;
+  margin-top:10px;  
+}
+
+.callout-right {
+  clear:both;
+  float:right;
+  display:block;
+  width:210px;
+  padding:20px 0 20px 20px;
+  margin-left:20px;
+  font-family:Georgia, "Times New Roman", Times, serif;
+  font-size:22px;
+  font-weight: normal;
+  line-height:26px;
+  border-bottom:1px dotted #005a8b;
+  border-top:1px dotted #005a8b; 
+  margin-bottom:10px;
+  margin-top:10px;  
+}
+
+.callout {
+  clear:both;
+  float:right;
+  display:block;
+  width:210px;
+  padding:20px 0 20px 20px;
+  margin-left:20px;
+  font-family:Georgia, "Times New Roman", Times, serif;
+  font-size:22px;
+  font-weight: normal;
+  line-height:26px;
+  border-bottom:1px dotted #005a8b;
+  border-top:1px dotted #005a8b; 
+  margin-bottom:10px;
+  margin-top:10px;  
+}
+
+.quote {
+	margin:0 0 15px 0;
+	background:url(../images/typography/quote-open-005A8B.png) no-repeat 20px 20px;
+	background-color: #FDF4EE;
+	padding: 20px 20px 20px 80px;
+	border: 1px dotted;
+	border-width: 1px 0;
+	border-color: #D8E7E9;
+}
+.quote p {
+	font-family: Georgia, "Times New Roman", Times, serif !important;
+	font-size:18px;
+	line-height:28px;
+}
+.quote p.credit {
+	color:#005A8B;
+	font-size:12px;
+	line-height:normal;	
+	font-family: Arial, Helvetica, sans-serif !important;
+}
+.note {
+	background:url(../images/typography/notev3.png) no-repeat 10px 20px;
+	background-color: #ECF1F4;
+	margin: 20px;
+	padding: 20px 20px 20px 60px;
+	border: 1px dotted #999;
+	border-width: 1px 0;
+}
+
+.callout-320px {
+  clear:both;
+  float:right;
+  display:block;
+  width:322px;
+  padding:0;
+  margin:0;
+  font-weight: normal;
+  margin-bottom:10px;
+  margin-top:10px;
+  margin-left:10px;
+  text-align:center;
+}
+
+.callout-320px a {border:none;}
+.callout-320px a img {border:none;}
+.callout-320px img {border:none;}

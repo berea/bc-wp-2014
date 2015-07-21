@@ -1,0 +1,124 @@
+/* layout955-print.css */
+/* Updated May 24, 2011 by Cary Hazelwood */
+/* All modifications to this file must be approved by Cary Hazelwood */
+
+body { 
+	width: 7in;
+	color: #000;
+	font: 12pt/20pt "Times New Roman", Times, serif;
+}
+a { 
+  text-decoration : underline; 
+  color : #0000ff; 
+}
+#sectiontitle, h1, h2, h3 {
+   color: #666;
+}
+#sectiontitle {
+   font-size: 32pt;
+   margin: 5px 0 0 0;
+   padding: 0 5px 20px 0;
+}
+h1 {
+   font-size: 24pt;
+   margin-bottom: 0;
+   padding: 10px 5px 5px 0;
+}
+h2 {
+   font-size: 16pt;
+   border-bottom: 1px solid #666;
+   padding: 20px 5px 5px 0;
+}
+h3 {
+   font-size: 14pt;
+   border-bottom: 1px solid #999;
+   padding: 15px 5px 5px 0;
+}
+p {
+   margin-top: 10px;   
+}
+#hdrbar, #hdr, #logo, #hdrlinksrch, #hdrbarnav, #header, #col1, #col2col2, #nlncol1col2, #ftrlinks, #copyright { 
+  display : none; 
+}
+#col2 {
+	float:none;
+}
+
+#col2col1 {
+	float:none;
+}
+#footer, #footerbar {margin:0;padding:0;}
+#printcopyright {border-top: 1px solid #999; margin-top:40px; padding-top:10px; }
+#printcopyright p{margin:0;padding:0;}
+
+/* Photo / Image Styles */
+
+.imagecaption {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-align: left;
+	line-height: normal;
+}
+.photo_right {
+  float:right;
+  border:solid 1px #005A8B;
+  margin-top: 5px;
+  margin-left:15px;
+  margin-bottom:5px;
+} 
+.photo_left {
+  float:left;
+  border:solid 1px #005A8B;
+  margin-top: 5px;
+  margin-right:15px;
+  margin-bottom:5px;
+} 
+.photo_right_nobrdr {
+  float:right;
+  margin-top: 5px;
+  margin-left:15px;
+  margin-bottom:5px;
+} 
+.photo_left_nobrdr {
+  float:left;
+  margin-top: 5px;
+  margin-right:15px;
+  margin-bottom:5px;
+}
+.photo_brdr {
+  border:solid 1px #005A8B;
+}
+.photo_caption {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-align: left;
+	line-height: normal;
+}
+.callout {
+  clear:both;
+  float:right;
+  display:block;
+  width:210px;
+  padding:20px 0 20px 20px;
+  margin-left:20px;
+  font-family:Georgia, "Times New Roman", Times, serif;
+  font-size:22px;
+  font-weight: normal;
+  line-height:26px;
+  border-bottom:1px dotted #005a8b;
+  border-top:1px dotted #005a8b; 
+  margin-bottom:10px;
+  margin-top:10px;  
+}
+
+
+.list-lowerroman {list-style-type: lower-roman;}
+.list-upperroman {list-style-type: upper-roman;}
+.list-loweralpha {list-style-type: lower-alpha;}
+.list-upperalpha {list-style-type: upper-alpha;}
+.listpdf {list-style-image:url(../images/typography/list_pdf.gif);}
+.listxls {list-style-image:url(../images/typography/list_excel.gif);}
+.listppt {list-style-image:url(../images/typography/list_ppt.gif);}
+.listword {list-style-image:url(../images/typography/list_word.gif);}
+.listlink {list-style-image:url(../images/typography/list_extlink.gif);}
+.listchevron-green {list-style-image:url(../images/typography/list_chevron_green.png);}

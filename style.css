@@ -1,0 +1,458 @@
+/*
+Theme Name: Berea College 2014
+Theme URI: http://www.berea.edu
+Description: Default Berea College Theme. This theme is to be deprecated and replaced by 2015. ETA of August 2015.
+Author: Charlie C Campbell, Jim McWhorter, Cary Hazelwood
+Author URI: http://www.berea.edu
+*/
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+/* start commented backslash hack \*/
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+/* close commented backslash hack */
+
+
+/*Begin Custom Menus*/
+
+
+
+/*Nav Menu*/
+#nav_menu-2 {
+	list-style: none;
+}
+#nav_menu-3 {
+	list-style: none;
+}
+.menu-top-nav-container {
+	background-color: #333;
+}
+#text-2 {
+	list-style: none;
+	background-color:transparent;
+	border:none;
+}
+.widget-title {
+	font-size: 20px;
+}
+
+
+
+
+/*Link Widget*/
+
+.widget_links {
+	width: 182px;
+	padding: 8px;
+	margin-top: -10px;
+}
+
+.widget_links H3 {
+	color: #f9f9f9f9;
+	background-color: #666;
+	font-size: 12px;
+	display: block;
+	line-height: normal;
+	padding: 7px 10px;
+	font-weight: bold;
+}
+
+.blogroll {
+	background-color: #EEEEEE;
+	border: 1px solid #C4C4C4;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 140px;
+	line-height: 20px;
+	margin-top: -5px;
+}
+
+ul xoxo blogroll {
+	line-height: 1em;
+}
+
+/*Right Side Bar*/
+
+#right-sidebar {
+	list-style: none;
+	padding:0;
+	width: 200px;
+}
+
+.right-sidebar {
+	font-size: 25px;
+	text-align: center;
+	color: #fff;
+}
+
+.widget_recent_entries h3 {
+	/* was "color: #005A8B;" why? */
+    color: #FFF;
+}
+
+/*News*/
+
+#news {
+}
+
+.widget widget_postsfromcategorywidget {
+	margin-left: 10px;
+}
+
+.post-content {
+	margin-left: 10px
+}
+
+/*Begin Events page*/
+
+#box {
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+#entry {
+}
+
+#date {
+	float: left;
+	width: 150px;
+}
+
+#title {
+	float: right;
+	position: relative;
+	right: -80px;
+	top: -36px;
+	width: 444px;
+}
+
+#deptenlist #entry #title .title {
+	font-weight: bold;
+}
+
+.events-table {
+	margin: 0 auto;
+}
+
+.event-time {
+	margin: 0 auto;
+}
+
+.event-description {
+	margin: 0 auto;
+}
+
+/*End Custom Menus*/
+
+.alignleft {
+	float: left;
+	margin-right: 10px;
+}
+
+.alignright {
+	float: right;
+	margin-left: 10px;
+}
+
+
+div#calculator-box {
+	background: url("/wp-content/themes/BereaCollege/images/admissions/calculator_208.png") no-repeat scroll 0 0 transparent;
+	height: 63px;
+	margin-bottom: 10px;
+	padding-top: 120px;
+	width: 208px;
+}
+div#calculator-box a {
+	border: medium none;
+}
+div#estimate-button {
+	background: url("/wp-content/themes/BereaCollege/images/admissions/btn-calculate.png") no-repeat scroll 0 0 transparent;
+	height: 32px;
+	margin-left: 95px;
+	margin-top: 20px;
+	width: 100px;
+}
+div#estimate-button:hover {
+	background-position: 0 -32px;
+}
+
+div#stayconnected-box {
+	background: url("/wp-content/themes/BereaCollege/images/admissions/connect-with-us-225x225.png") no-repeat scroll 0 0 transparent;
+	height: 225px;
+	margin-bottom: 0;
+	margin-left: -8px;
+	margin-top: -10px;
+	width: 225px;
+}
+div#stayconnected-box a {
+	border: medium none;
+}
+div#ooga {
+	height: 60px;
+	width: 225px;
+}
+div#image-fb {
+	background: url("/wp-content/themes/BereaCollege/images/admissions/facebook_button.png") no-repeat scroll 0 0 transparent;
+	height: 30px;
+	margin-left: 35px;
+	margin-top: 60px;
+	position: absolute;
+	width: 140px;
+}
+div#image-twitter {
+	background: url("/wp-content/themes/BereaCollege/images/admissions/twitter_button.png") no-repeat scroll 0 0 transparent;
+	height: 27px;
+	margin-left: 35px;
+	margin-top: 110px;
+	position: absolute;
+	width: 141px;
+}
+div#image-blog {
+	background: url("/wp-content/themes/BereaCollege/images/admissions/lifeinthebubble.png") no-repeat scroll 0 0 transparent;
+	height: 37px;
+	margin-left: 35px;
+	margin-top: 155px;
+	position: absolute;
+	width: 75px;
+}
+div#image-fb:hover {
+	background-position: 0 -31px;
+}
+div#image-twitter:hover {
+	background-position: 0 -28px;
+}
+div#image-blog:hover {
+	background-position: 0 -36px;
+}
+
+
+div#vip-box {
+	background: url("/wp-content/themes/BereaCollege/images/admissions/vip_box.png") no-repeat scroll 0 0 transparent;
+	height: 60px;
+	margin-bottom: 10px;
+	padding-top: 200px;
+	width: 439px;
+}
+div#vip-box a {
+	border: medium none;
+}
+div#image-button1 {
+	background: url("/wp-content/themes/BereaCollege/images/admissions/btn-signup.png") no-repeat scroll 0 0 transparent;
+	height: 35px;
+	margin-left: 325px;
+	margin-top: -45px;
+	width: 77px;
+}
+div#image-button2 {
+	background: url("/wp-content/themes/BereaCollege/images/admissions/btn-login.png") no-repeat scroll 0 0 transparent;
+	height: 35px;
+	margin-left: 325px;
+	margin-top: 2px;
+	width: 77px;
+}
+div#image-button1:hover {
+	background-position: 0 -34px;
+}
+div#image-button2:hover {
+	background-position: 0 -34px;
+}
+
+div#nav-postit {
+	background: url("/wp-content/themes/BereaCollege/images/admissions/post_it_admissions.png") no-repeat scroll 0 0 transparent;
+	height: 86px;
+	margin-bottom: 10px;
+	padding-top: 120px;
+	width: 208px;
+}
+div#nav-postit a {
+	border: medium none;
+}
+div#counselors-button {
+	background: url("/wp-content/themes/BereaCollege/images/admissions/post_it_admissions_counselors_button.png") no-repeat scroll 0 0 transparent;
+	height: 35px;
+	margin-left: 20px;
+	margin-top: -68px;
+	width: 170px;
+}
+div#counselors-button:hover {
+	background-position: 0 -36px;
+}
+div#parents-button {
+	background: url("/wp-content/themes/BereaCollege/images/admissions/post_it_admissions_parents_button.png") no-repeat scroll 0 0 transparent;
+	height: 31px;
+	margin-left: 20px;
+	margin-top: 12px;
+	width: 64px;
+}
+div#parents-button:hover {
+	background-position: 0 -30px;
+}
+div#students-button {
+	background: url("/wp-content/themes/BereaCollege/images/admissions/post_it_admissions.png") no-repeat scroll 0 0 transparent;
+	height: 43px;
+	margin-left: 20px;
+	margin-top: 4px;
+	width: 155px;
+}
+div#students-button:hover {
+	background-position: 0 -39px;
+}
+
+   /*Custom Right Sidebar*/
+
+/*Text Widget*/
+
+
+
+/*Image Widget*/
+
+.widget_sp_image {
+    margin: 0 0 10px;
+    width: 200px;
+}
+
+widget_sp_image ul {
+	list-style: square outside none;
+	margin: 0;
+	padding: 8px 8px 8px 30px;
+}
+
+widget_sp_image li {
+	margin: 0;
+    padding: 0 0 5px;
+}
+
+.widget_sp_image-image-link {
+
+}
+
+.widget_sp_image h3{
+	background-color: #666666;
+    color: #F9F9F9;
+    display: block;
+    line-height: normal;
+    padding: 7px 10px;
+	margin:0 auto;
+	font-size:12px;
+	text-align:left;
+	font-weight:bold;
+}
+
+/* Custom Navigation */
+/* Removed by Cary. The styles listed here were used in both left nav column and right sidebar; */
+/* therefore, they had to be removed because they cannot apply to both areas. */
+
+/* Related Links */
+/* Removed by Cary. Conflicting with official styles in layout955-wp-leftcolumn.css */
+
+/***All in One Banner With Playlist Custom CSS***/
+
+.allinone_bannerWithPlaylist.elegant .bannerControls {
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:2;
+}
+
+.allinone_bannerWithPlaylist.elegant .leftNav {
+	position:absolute;
+	left:0px;
+	top:50%;
+	margin-top:-35px; /* height/2 */
+	width:31px;
+	height:71px;
+	background:url(skins/elegant/leftNavOFF.png) 0 0 no-repeat;
+	cursor: pointer;
+}
+
+.allinone_bannerWithPlaylist.elegant .leftNav:hover {
+	background:url(skins/elegant/leftNavON.png) 0 0 no-repeat;
+}
+.allinone_bannerWithPlaylist.elegant .rightNav {
+	position:absolute;
+	right:0px;
+	top:50%;
+	margin-top:-35px; /* height/2 */
+	width:31px;
+	height:71px;
+	background:url(skins/elegant/rightNavOFF.png) 0 0 no-repeat;
+	cursor: pointer;
+}
+.allinone_bannerWithPlaylist.elegant .rightNav:hover {
+	background:url(skins/elegant/rightNavON.png) 0 0 no-repeat;
+}
+.allinone_bannerWithPlaylist.elegant .thumbsHolderWrapper {
+	position:absolute;
+	background:#e9e9e9;
+	/*height:121px;
+	width:100%;*/
+	height:100%;
+	overflow:hidden;
+}
+.allinone_bannerWithPlaylist.elegant .thumbsHolderVisibleWrapper {
+	position:absolute;
+	/*width:100%;
+	height:121px;*/
+	height:100%;
+	overflow:hidden;
+}
+.allinone_bannerWithPlaylist.elegant .thumbsHolder {
+	position:absolute;
+}
+.allinone_bannerWithPlaylist.elegant .thumbsHolder_ThumbOFF {
+	display:block;
+	height:110px;
+	background:#b7d7e8;
+	text-align:left;
+	line-height:1.2em;
+	cursor: pointer;
+}
+.allinone_bannerWithPlaylist.elegant .thumbsHolder_ThumbOFF  .padding {
+	padding:10px;
+}
+.allinone_bannerWithPlaylist.elegant .thumbsHolder_ThumbOFF .title {
+	font-size:20px;
+	font-family:georgia;
+	display:inline-block;
+	padding-bottom:5px;
+}
+.allinone_bannerWithPlaylist.elegant .thumbsHolder_ThumbOFF .reg {
+	font: 11px Arial, sans-serif;
+	color:#454545;
+	line-height:1.2em;
+}
+
+.allinone_bannerWithPlaylist.elegant .thumbsHolder_ThumbOFF img {
+	position:relative;
+	float:left;
+	margin-right:10px;
+}
+
+.allinone_bannerWithPlaylist.elegant .thumbsHolder_ThumbON {
+	background:#e6f0f7;
+}
+.allinone_bannerWithPlaylist.elegant .thumbsHolder_ThumbON .title {
+	color:#ff771c;
+	font-size:20px;
+	font-family:georgia;
+}
+.allinone_bannerWithPlaylist.elegant .thumbsHolder_ThumbON .reg {
+	color:#454545;
+}
+
+.sliders-container{overflow:visible;}

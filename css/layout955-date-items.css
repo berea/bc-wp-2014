@@ -1,0 +1,7 @@
+/* layout955-date-items.css */
+/* Updated May 24, 2011 by Cary Hazelwood */
+/* All modifications to this file must be approved by Cary Hazelwood */
+
+.datearea {float:left; width:30px; height:30px; padding:0; text-align:center; font-weight:bold; margin:0; line-height:normal;}
+.datearea-month {font-size:10px !important; text-transform:uppercase;}
+.datearea-day {font-size:16px !important;}

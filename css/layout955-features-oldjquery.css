@@ -1,0 +1,33 @@
+/* layout955-features-oldjquery.css */
+/* Updated June 2, 2011 by Cary Hazelwood */
+/* All modifications to this file must be approved by Cary Hazelwood */
+
+/* These styles were removed due to a design change for the college home page. */
+/* This file serves as an archive of those styles. */
+
+/* News & Features Styles */
+
+#ftrswrapper{width:875px; padding:20px; border: 1px dotted #999999; margin:20px auto;}
+#ftrswrapper a{color:#1f6c96; text-decoration:none;}
+#ftrswrapper #features{margin:0px 0px 0px 0px;}
+#ftrswrapper #features img{border:#000000 solid 1px;}
+#ftrswrapper #features .lcol{width:425px; float:left; margin:0px 25px 0px 0px; margin-bottom: 25px;}
+#ftrswrapper #features .lcol h3{font-family:Georgia, "Times New Roman", Times, serif;}
+#ftrswrapper #features .rcol{width:425px; float:right; margin:0px; margin-bottom: 25px;}
+#ftrswrapper #features .picture{width:100px; float:left; margin:0px 20px 0px 0px;}
+#ftrswrapper #features .content{width:305px; float:right; margin:0px;}
+#ftrswrapper #features .content p{margin:0; padding:0; line-height: 20px;}
+#ftrswrapper #nav{margin:0px; width:101px; float:left;}
+#ftrswrapper #nav a{text-decoration:none; margin:2px; width:15px; display:inline-block;	text-align:center;}
+#ftrswrapper #nav #pages{color:#1f6c96;	width:63px;	float:right;}
+#ftrswrapper #nav #pages a{color:#718D9D; background:#e5eef2; border:#b9ced9 solid 1px;}
+#ftrswrapper #nav #pages a.activeSlide{border:1px #b9ced9 solid; background:#b7d7e8; color:#005a8b;}
+#ftrswrapper .activeSlide{}
+#ftrswrapper #nav #pages a:hover{color:#FFFFFF; background:#1f6c96;}
+#ftrswrapper #nav a:focus{outline:none; color:#093851;}
+#ftrswrapper #moreFeatures{width:150px;	float:right; text-align:right;}
+#ftrswrapper h2 {margin-top:-33px; background-color:#F9F9F9; width:180px; padding:0 5px 0 5px; margin-bottom:10px; color:#D8671D;}
+#ftrswrapper h3 {margin:0 0 5px 0;}
+#ftrswrapper .fslink {color:#7ea634;}
+
+

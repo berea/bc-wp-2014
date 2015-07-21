@@ -1,0 +1,67 @@
+/* layout-955-lists.css */
+/* Updated November 19, 2012 by Cary Hazelwood */
+/* All modifications to this file must be approved by Cary Hazelwood */
+
+/* Contact Form 7 Styles */
+.wpcf7-checkbox .wpcf7-list-item { display: block; }
+.wpcf7-radio { display: block; padding-right:5px; }
+.wpcf7-radio .wpcf7-list-item { display: block; }
+.wpcf7-textarea { width:300px !important;}
+
+/* Body List Styles */
+#contenthdr li {margin-top:10px;}
+#contenthdr ul {margin-top:0;margin-bottom:20px;}
+
+#content li {margin-top:10px;}
+#content ul {margin-top:0;margin-bottom:20px;}
+
+.list-lowerroman {list-style-type: lower-roman;}
+.list-upperroman {list-style-type: upper-roman;}
+.list-loweralpha {list-style-type: lower-alpha;}
+.list-upperalpha {list-style-type: upper-alpha;}
+.listpdf {list-style-image:url(../images/typography/list_pdf.gif);}
+.listxls {list-style-image:url(../images/typography/list_excel.gif);}
+.listppt {list-style-image:url(../images/typography/list_ppt.gif);}
+.listword {list-style-image:url(../images/typography/list_word.gif);}
+.listlink {list-style-image:url(../images/typography/list_extlink.gif);}
+
+/* Chevrons */
+.listchevron-white {list-style-image:url(../images/typography/list_chevron_white.png);}
+.listchevron-green {list-style-image:url(../images/typography/list_chevron_leafgreen.png);}
+.listchevron-orangezest {list-style-image:url(../images/typography/list_chevron_orangezest.png);}
+.listchevron-orangezest-lt {list-style-image:url(../images/typography/list_chevron_orangezest-lt.png);}
+
+/* Checkmarks */
+.listcheckmark005A8B {list-style-image:url(../images/typography/checkmark005A8B.png)}
+.listcheckmark009B48 {list-style-image:url(../images/typography/checkmark009B48.png)}
+.listcheckmarkDB3100 {list-style-image:url(../images/typography/checkmarkDB3100.png)}
+.listcheckmarkDB7700 {list-style-image:url(../images/typography/checkmarkDB7700.png)}
+
+/* Right Arrows */
+.listrtarrow005A8B {list-style-image:url(../images/typography/rtarrow005A8B.png)}
+.listrtarrow009B48 {list-style-image:url(../images/typography/rtarrow009B48.png)}
+.listrtarrowDB3100 {list-style-image:url(../images/typography/rtarrowDB3100.png)}
+.listrtarrowDB7700 {list-style-image:url(../images/typography/rtarrowDB7700.png)}
+
+/* Completed Items */
+.listinactive {color:#999999}
+.listactive009B48 {color:#009B48}
+
+/* Hanging Indent */
+.bib ul {margin:0;padding:0;}
+.bib ul li ul {margin:0 0 0 0px;padding:0 0 0 30px;}
+.hi {text-indent: -2em; padding-left: 2em; list-style:none;}
+.bib ul li ul li {margin:0;padding:0 0 0 25px;}
+
+/* Two-Column Photo List */
+#photo-list-2col ul {list-style:none !important; margin:0; padding:0;}
+#photo-list-2col ul li ul li h2 {margin-top:0;}
+#photo-list-2col ul li {clear:both; padding-bottom:10px !important;}
+#photo-list-2col ul li img {float:left;margin:0 15px 0 0;display:inline; border:solid 1px #666;}
+#photo-list-2col ul li ul {margin:0; padding:0; list-style:none; overflow:auto;}
+#photo-list-2col ul li ul li {margin:0; padding:0}
+
+/* Wrapping Photo List */
+#photo-list-wrap ul { list-style:none; margin:0; padding:0;}
+#photo-list-wrap li {width:152px; float:left; padding-bottom:20px; padding-right:17px; text-align:center; font-family:Georgia, "Times New Roman", Times, serif; font-size:18px; color:#005A86; font-weight: normal;}
+#photo-list-wrap li img {border:solid 1px #666; margin:0 0 3px 0; padding:0;}

@@ -1,0 +1,252 @@
+/* layout955-leftnav-DCE6ED.css */
+/* Updated Sept. 6, 2012 by Cary Hazelwood */
+/* All modifications to this file must be approved by Cary Hazelwood */
+
+/* Begin BCLeftNav*/		
+
+#bcleftnav {
+	width: 179px;
+	padding: 0;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+#bcleftnav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+#bcleftnav li {
+	margin: 0;
+}
+#bcleftnav li a {
+	display: block;
+	background-color: #DCE6ED;
+	padding: 10px 10px 10px 10px;
+	color: #005A8B;
+	text-decoration: none;
+	font-weight: bold;
+	width: 160px;
+}
+html>body #bcleftnav li a {
+	width: auto;
+}
+#bcleftnav li a:hover {
+	background-color: #FFFFEA;
+	color: #000000;
+}
+#bcleftnav ul ul {
+	list-style-image:url(../images/typography/list_chevron_bereablue.png) !important;
+	margin-left:25px;
+}
+#bcleftnav li li {
+	margin: 0;
+	border:none;
+	background-color: #dce6ed;
+}
+
+#bcleftnav li li a {
+	display: block;
+	padding: 7px 3px 7px 20px;
+	color: #005A8B;
+	font-weight: normal;
+	text-decoration: none;
+	width: 149px;
+	border-top-color: #93B1CC;
+	border-top-style: dotted;
+	border-top-width: 1px;	
+}
+#bcleftnav li li a:hover {
+	background-color: #FFFFEA;
+	color: #000000;
+}
+#contactinfo {
+	width:160px;
+	padding:10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #3C5E7B;
+}
+#contactinfo a:link, #contactinfo a:visited, #contactinfo a:active {
+	color: #42698C;
+	background-color: #D7D7D7;
+	text-decoration: underline;
+	font-weight:normal;
+	padding:0px;
+}
+#contactinfo a:hover, #contactinfo li a:hover {
+	background-color: #D7D7D7;
+	text-decoration: underline;
+}
+#contactinfo p {margin:0;padding:0 0 2px 0;}
+#contactinfo .title {margin:10px 0 3px 0;padding:0; font-weight:bold;}
+#contactinfo .hours {width:160px; padding-bottom:13px;}
+#contactinfo .hours p {clear:both;}
+#contactinfo .hours-days {
+	float:left;
+	width:45px;
+	padding-bottom:3px;	
+}
+#contactinfo .hours-time {
+	float:right;
+	width:110px;
+	padding-bottom:3px;	
+	
+/* Begin QuickLinks*/		
+}
+#quicklinks {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #F1F5F8;
+	background-color:#828282;
+	padding:10px;
+}
+#quicklinks p {
+	padding: 0px;
+	margin: 0px 0px 0px 0px; 
+	background: transparent;
+}
+#quicklinks .title {
+	font-weight:bold;
+	text-transform: uppercase;
+	font-size: 12px;
+	padding-bottom:5px;
+	letter-spacing: 1.5px;
+}
+#quicklinks a:link, #quicklinks a:visited, #quicklinks a:active {
+	text-decoration: none;
+	color: #F9F9F9;
+}
+#quicklinks a:hover {
+	background-color:#FFFFEA;
+	color: #333333;
+}
+#quicklinks ul {
+	list-style: square;
+	padding: 0px 0px 0px 20px;
+	margin: 0px;	
+}
+#quicklinks ul li {
+}
+
+#quicklinks ul li a {
+	background-color:#828282;
+	border:none;
+	padding: 7px 3px 7px 1px;
+}
+
+#quicklinks li li a {
+	background-color:#828282;
+}
+
+#quicklinks li li a:hover {
+	background-color:#;
+	color: #333333;
+}
+
+/* Left Navigation Search Box */
+
+#leftsearch {
+	padding:20px 20px 0 20px;
+	width:140px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #3C5E7B;
+}
+
+div#field-search label {
+	position:absolute;
+	left: -999em;
+	top: -999em;
+}
+
+div#field-search input {
+	background: #fff no-repeat 0 0;
+	border:#3e7ca6 1px solid;
+	display: block;
+	float: left;
+	font-size: 14px;
+	float: left;
+	padding: 6px 4px 7px 4px;
+	width:132px;
+	margin-top:4px;
+}
+
+#lnsearch {
+	margin:0;
+	padding:0;
+	width:140px;
+}
+.controls {
+clear:both;
+float:right;
+padding-top:2px;
+}
+
+#col1text {
+	width:140px;
+	padding:20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+	color: #3C5E7B;
+}
+#col1text a:link, #col1text a:visited, #col1text a:active {
+	color: #42698C;
+	text-decoration: underline;
+}
+#col1text a:hover {
+	color: #FFFFEA;
+	text-decoration: underline;
+}
+#col1text p {margin:0;padding:0 0 20px 0;}
+
+div#connect-fb {
+	width: 142px;
+	height: 30px;
+	background:url(../images/icons/facebook_logo_w_mouseover-142x60.png) no-repeat;
+	margin:5px 0;
+}
+div#connect-fb:hover { background-position: 0 -30px; }
+
+div#connect-twitter {
+	width: 142px;
+	height: 28px;
+	background:url(../images/icons/twitter_logo_w_mouseover-142x56.png) no-repeat;
+	margin:5px 0;
+}
+div#connect-twitter:hover { background-position: 0 -28px; }
+
+#bcleftforms {
+	width: 179px;
+	padding: 0;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+#bcleftforms ul {
+	margin: 0 20px 0 20px;
+	padding: 0;
+}
+#bcleftforms li {
+	padding: 3px 0;
+}
+
+#bcleftforms-legend {
+	padding: 8px;
+	margin: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px !important;
+	border:solid 1px;
+	border-color: #B6B6B6;
+	background-color: #E5E5E5;
+}
+#bcleftforms-legend ul {
+	margin: 0 0 0 20px;
+	padding: 0;
+}
+#bcleftforms-legend li {
+	padding: 3px 0 0 0;
+}
+#bcleftforms-legend .title {text-align:center; padding:0; margin:0;}

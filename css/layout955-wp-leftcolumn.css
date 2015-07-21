@@ -1,0 +1,320 @@
+/* layout955-wp-leftcolumn.css */
+/* Updated Mar. 18, 2014 by Cary Hazelwood */
+/* All modifications to this file must be approved by Cary Hazelwood */
+
+#wp-leftcolumn {margin:0;padding:0;}
+#wp-leftcolumn ul {margin:0;padding:0;list-style:none;}
+#wp-leftcolumn ul li {margin:0;padding:0;}
+#wp-leftcolumn ul li.widget_search {margin:0;padding:10px;}
+
+/* menu-left-nav-container */
+.menu-left-nav-container {
+	width: 179px;
+	padding: 0;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.menu-left-nav-container ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border: none;
+	border-bottom-color: #93B1CC;
+	border-bottom-style: dotted;
+	border-bottom-width: 1px;
+	background-color: #EEF3F7;
+}
+.menu-left-nav-container li {
+	margin: 0;
+}
+.menu-left-nav-container li a {
+	display: block;
+	background-color: #DCE6ED;
+	padding: 10px 10px 10px 10px;
+	color: #005A8B;
+	text-decoration: none;
+	font-weight: bold;
+	width: 160px;
+	border-top-color: #93B1CC;
+	border-top-style: dotted;
+	border-top-width: 1px;	
+}
+html>body .menu-left-nav-container li a {
+	width: auto;
+}
+.menu-left-nav-container li a:hover {
+	background-color: #FFFFEA;
+	color: #000000;
+}
+.menu-left-nav-container ul ul {
+	list-style-image:url(../images/typography/list_chevron_bereablue.png) !important;
+	margin-left:25px !important;
+	border-bottom-style:none !important;
+}
+.menu-left-nav-container li li {
+	margin: 0;
+	border:none;
+}
+
+.menu-left-nav-container li li a {
+	display: block;
+	padding: 7px 10px 7px 0px;
+	color: #005A8B;
+	font-weight: normal;
+	text-decoration: none;
+	width: 149px;
+	border-top-color: #93B1CC;
+	border-top-style: dotted;
+	border-top-width: 1px;
+	background-color: #EEF3F7;
+}
+.menu-left-nav-container li li a:hover {
+	background-color: #FFFFEA;
+	color: #000000;
+}
+
+#nav_menu-5 {
+	width: 179px;
+	padding: 0;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+#nav_menu-5 ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border: none;
+	border-bottom-color: #93B1CC;
+	border-bottom-style: dotted;
+	border-bottom-width: 1px;
+	background-color: #EEF3F7;
+}
+#nav_menu-5 li {
+	margin: 0;
+}
+#nav_menu-5 li a {
+	display: block;
+	background-color: #DCE6ED;
+	padding: 10px 10px 10px 10px;
+	color: #005A8B;
+	text-decoration: none;
+	font-weight: bold;
+	width: 160px;
+	border-top-color: #93B1CC;
+	border-top-style: dotted;
+	border-top-width: 1px;	
+}
+html>body #nav_menu-5 li a {
+	width: auto;
+}
+#nav_menu-5 li a:hover {
+	background-color: #FFFFEA;
+	color: #000000;
+}
+#nav_menu-5 ul ul {
+	list-style-image:url(../images/typography/list_chevron_bereablue.png) !important;
+	margin-left:25px;
+	border-bottom-style:none;
+}
+#nav_menu-5 li li {
+	margin: 0;
+	border:none;
+}
+
+#nav_menu-5 li li a {
+	display: block;
+	padding: 7px 10px 7px 0px;
+	color: #005A8B;
+	font-weight: normal;
+	text-decoration: none;
+	width: 149px;
+	border-top-color: #93B1CC;
+	border-top-style: dotted;
+	border-top-width: 1px;
+	background-color: #EEF3F7;
+}
+#nav_menu-5 li li a:hover {
+	background-color: #FFFFEA;
+	color: #000000;
+}
+
+#contactinfo {
+	width:160px;
+	padding:5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #3C5E7B;
+}
+#contactinfo a:link, #contactinfo a:visited, #contactinfo a:active {
+	color: #42698C;
+	background-color: #D7D7D7;
+	text-decoration: underline;
+	font-weight:normal;
+	padding:0px;
+}
+#contactinfo a:hover, #contactinfo li a:hover {
+	background-color: #D7D7D7;
+	text-decoration: underline;
+}
+#contactinfo p {margin:0;padding:0 0 2px 0;}
+#contactinfo .title {margin:10px 0 3px 0;padding:0; font-weight:bold;}
+#contactinfo .hours {width:160px; padding-bottom:13px;}
+#contactinfo .hours p {clear:both;}
+#contactinfo .hours-days {
+	float:left;
+	width:45px;
+	padding-bottom:3px;	
+}
+#contactinfo .hours-time {
+	float:right;
+	width:110px;
+	padding-bottom:3px;	
+}
+
+/* Begin Related Links */		
+
+#nav_menu-2 {
+	padding: 0;
+	margin: 0;
+	border:none;
+}
+
+#related-links {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #F1F5F8;
+	background-color:#828282;
+	padding:10px;
+	line-height:normal !important;
+	width:160px;	
+}
+
+#related-links .menu-related-links-container {
+	margin:0;
+	padding:0;
+}
+
+#related-links .menu-related-links-container ul {
+	margin: 0;
+	padding: 0;
+}
+
+#related-links .menu-related-links-container li {
+	margin: 0;
+    padding: 0;
+}
+
+#related-links .menu-related-links-container h3 {
+    margin: 0;
+	padding: 0;
+}
+#related-links p {
+	padding: 0px;
+	margin: 0px 0px 0px 0px; 
+	background: transparent;
+}
+#related-links .title {
+	font-weight:bold;
+	text-transform: uppercase;
+	font-size: 12px;
+	padding-bottom:5px;
+	letter-spacing: 1.5px;
+}
+#related-links a:link, #related-links a:visited, #related-links a:active {
+	text-decoration: none;
+	color: #F9F9F9;
+}
+#related-links a:hover {
+	background-color:#BEBEBE;
+	color: #333333;
+}
+#related-links .menu-related-links-container ul, #related-links .menu-quick-links-container ul {
+	list-style: square;
+	padding: 0px 0px 0px 13px;
+	margin: 0px;	
+}
+#related-links .menu-related-links-container ul li, #related-links .menu-quick-links-container ul li {
+	padding: 3px 3px 3px 1px;
+}
+
+#related-links .menu-related-links-container ul li a, #related-links .menu-quick-links-container ul li a {
+	background-color:#828282;
+}
+
+
+#col1text {
+	width:140px;
+	padding:20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+	color: #3C5E7B;
+}
+#col1text a:link, #col1text a:visited, #col1text a:active {
+	color: #42698C;
+	text-decoration: underline;
+}
+#col1text a:hover {
+	color: #FFFFEA;
+	text-decoration: underline;
+}
+#col1text p {margin:0;padding:0 0 20px 0;}
+
+/* Begin Facebook Button */
+
+div#connect-fb {
+	width: 142px;
+	height: 30px;
+	background:url(../images/icons/facebook_logo_w_mouseover-142x60.png) no-repeat;
+	margin:5px 0;
+}
+div#connect-fb:hover { background-position: 0 -30px; }
+
+/* End Facebook Button */
+
+/* Begin Twitter Button */
+
+div#connect-twitter {
+	width: 142px;
+	height: 28px;
+	background:url(../images/icons/twitter_logo_w_mouseover-142x56.png) no-repeat;
+	margin:5px 0;
+}
+div#connect-twitter:hover { background-position: 0 -28px; }
+
+/* End Twitter Button */
+
+#bcleftforms {
+	width: 179px;
+	padding: 0;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+#bcleftforms ul {
+	margin: 0 20px 0 20px;
+	padding: 0;
+}
+#bcleftforms li {
+	padding: 3px 0;
+}
+
+#bcleftforms-legend {
+	padding: 8px;
+	margin: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px !important;
+	border:solid 1px;
+	border-color: #B6B6B6;
+	background-color: #E5E5E5;
+}
+#bcleftforms-legend ul {
+	margin: 0 0 0 20px;
+	padding: 0;
+}
+#bcleftforms-legend li {
+	padding: 3px 0 0 0;
+}
+#bcleftforms-legend .title {text-align:center; padding:0; margin:0;}

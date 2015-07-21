@@ -1,0 +1,120 @@
+/* layout955-colors.css */
+/* Updated May 24, 2011 by Cary Hazelwood */
+/* All modifications to this file must be approved by Cary Hazelwood */
+
+.bgcolor-orangezest { background-color:#C75B12;}
+.bgcolor-leafgreen {background-color:#739600;}
+.bgcolor-poolblue {background-color:#3095B4;color:#FFFFFF !important;}
+.bgcolor-skyblue {background-color:#93B1CC;}
+.bgcolor-mallardgreen {background-color:#156570;color:#FFFFFF !important;}
+.bgcolor-mineralgrey {background-color:#818A8F;}
+.bgcolor-bereablue {background-color:#005A8B;}
+.bgcolor-ltmineralgrey {background-color:#D0D3D5;color:#000000 !important;}
+
+/* leafgreen - global text and link colors */
+
+.bgcolor-leafgreen a:link, .bgcolor-leafgreen a:active, .bgcolor-leafgreen a:visited {
+	color:#FFFFFF !important;
+	text-decoration:none;
+	border-bottom:dotted 1px !important;
+	border-bottom-color: #9FC02C !important;
+}
+.bgcolor-leafgreen a:hover {
+	color:#E3EEBF !important;
+	text-decoration:none;
+	border-bottom:dotted 1px #E3EEBF !important;
+	background:none !important;
+}
+.bgcolor-leafgreen h2, .bgcolor-leafgreen li, .bgcolor-leafgreen p, .bgcolor-leafgreen strong {
+	color:#FFFFFF !important;
+}
+
+/* mallardgreen - global text and link colors */
+
+.bgcolor-mallardgreen a:link, .bgcolor-mallardgreen a:active, .bgcolor-mallardgreen a:visited {
+	color:#D5F2F7 !important;
+	text-decoration:none;
+	border-bottom:dotted 1px !important;
+	border-bottom-color: #D5F2F7 !important;
+}
+.bgcolor-mallardgreen a:hover {
+	color:#E3EEBF !important;
+	text-decoration:none;
+	border-bottom:dotted 1px #E3EEBF !important;
+	background:none !important;
+}
+.bgcolor-mallardgreen h2, .bgcolor-leafgreen li, .bgcolor-leafgreen p, .bgcolor-leafgreen strong {
+	color:#FFFFFF !important;
+}
+
+/* poolblue - global text and link colors */
+
+.bgcolor-poolblue a:link, .bgcolor-poolblue a:active, .bgcolor-poolblue a:visited {
+	color:#F8CDB1 !important;
+	text-decoration:none;
+	border-bottom:dotted 1px !important;
+	border-bottom-color: #F8CDB1 !important;
+}
+.bgcolor-poolblue a:hover {
+	color:#E3EEBF !important;
+	text-decoration:none;
+	border-bottom:dotted 1px #E3EEBF !important;
+	background:none !important;
+}
+.bgcolor-poolblue h2, .bgcolor-poolblue li, .bgcolor-poolblue p, .bgcolor-poolblue strong {
+	color:#FFFFFF !important;
+}
+
+/* ltmineralgrey - global text and link colors */
+
+.bgcolor-ltmineralgrey a:link, .bgcolor-ltmineralgrey a:active, .bgcolor-ltmineralgrey a:visited {
+	color:#F8CDB1 !important;
+	text-decoration:none;
+	border-bottom:dotted 1px !important;
+	border-bottom-color: #F8CDB1 !important;
+}
+.bgcolor-ltmineralgrey a:hover {
+	color:#E3EEBF !important;
+	text-decoration:none;
+	border-bottom:dotted 1px #E3EEBF !important;
+	background:none !important;
+}
+.bgcolor-ltmineralgrey h2, .bgcolor-ltmineralgrey li, .bgcolor-ltmineralgrey p, .bgcolor-ltmineralgrey strong {
+	color:#000000 !important;
+}
+
+/* mineralgrey - global text and link colors */
+
+.bgcolor-mineralgrey a:link, .bgcolor-mineralgrey a:active, .bgcolor-mineralgrey a:visited {
+	color:#FFFFFF !important;
+	text-decoration:none;
+	border-bottom:dotted 1px !important;
+	border-bottom-color: #B2B2B2 !important;
+}
+.bgcolor-mineralgrey a:hover {
+	color:#DDE0E1 !important;
+	text-decoration:none;
+	border-bottom:dotted 1px #DDE0E1 !important;
+	background:none !important;
+}
+.bgcolor-mineralgrey h2, .bgcolor-mineralgrey li, .bgcolor-mineralgrey p, .bgcolor-mineralgrey strong {
+	color:#FFFFFF !important;
+}
+
+/* orangezest - global text and link colors */
+
+.bgcolor-orangezest h2, .bgcolor-orangezest li, .bgcolor-orangezest p, .bgcolor-orangezest strong {
+	color:#FFFFFF !important;
+}
+
+/* skyblue - global text and link colors */
+
+.bgcolor-skyblue h2, .bgcolor-skyblue li, .bgcolor-skyblue p, .bgcolor-skyblue strong {
+	color:#FFFFFF !important;
+}
+
+/* bereablue - global text and link colors */
+
+.bgcolor-bereablue h2, .bgcolor-bereablue li, .bgcolor-bereablue p, .bgcolor-bereablue strong {
+	color:#FFFFFF !important;
+}

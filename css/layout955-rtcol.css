@@ -1,0 +1,182 @@
+/* layout955-rtcol.css */
+/* Updated Nov 8, 2012 by Cary Hazelwood */
+/* All modifications to this file must be approved by Cary Hazelwood */
+
+/* old styles to be phased out */
+#col2col2 .boxelement {margin:0; padding:0 0 5px 0; text-align:center; margin:0 auto; border: none;}
+#col2col2 .rtcolad {padding-bottom:20px;}
+.col2col2ad {width: 170px; padding:10px 15px; margin: 0; background-color: #EEEEEE; float: right; display: inline; margin-bottom:10px;}
+.col2col2ad p, .col2col2ad h2, .col2col2ad h3 {padding:0; margin:0; line-height:normal;}
+.col2col2ad h2, .col2col2ad h3 {padding:0 0 5px 0; margin:0; line-height:normal;}
+
+/* Global Right Column Link Colors */
+#col2col2 a:link {color:#005A8B; text-decoration:none; border-bottom:dotted 1px #005A8B;}
+#col2col2 a:active {color:#005A8B; text-decoration:none; border-bottom:dotted 1px #005A8B;}
+#col2col2 a:visited {color:#005A8B; text-decoration:none; border-bottom:dotted 1px #005A8B;}
+#col2col2 a:hover {color:#005A8B; text-decoration:none; border-bottom:dotted 1px #005A8B; background-color:#E5E5E5;}
+
+/* Global Right Column Image Styles */
+#col2col2 img, #nlncol1col2 img {border:none;}
+#col2col2 .button, #nlncol1col2 .button {padding-bottom:10px;}
+
+/* Global Right Column Image Border Removal */
+#col2col2 .button img, #nlncol1col2 .button img {border:none;}
+#col2col2 .button a:hover, #col2col2 .button a:link, #col2col2 .button a:active, #col2col2 .button a:visited {border:none;background:none;}
+#nlncol1col2 .button a:hover, #nlncol1col2 .button a:link, #nlncol1col2 .button a:active, #nlncol1col2 .button a:visited {border:none;background:none;}
+
+/* Quick Links - deprecated; will be phased out */
+#col2col2ql {width: 200px; margin: 0; background-color: #EEEEEE; margin-bottom:10px; border: 1px solid; border-color: #C4C4C4;}		
+#col2col2ql strong {background-color: #666666; display: block; padding: 7px 10px; line-height: normal; color: #F9F9F9;}
+#col2col2ql blockquote {margin:3px 10px;padding:0; color:#868686; border:none;}
+#col2col2ql p {padding: 10px 15px 0 15px; margin:0;}
+#col2col2ql p.title {color:#00386B;	font-weight:bold;}
+#col2col2ql ul {list-style:square; padding: 8px 8px 8px 30px; margin: 0;}
+#col2col2ql ul li {padding: 0px 0px 5px 0px; margin: 0;}
+#col2col2ql ol {padding: 8px 8px 8px 35px; margin: 0;}
+#col2col2ql ol li {padding: 0px 0px 5px 0px; margin: 0;}
+#col2col2ql a:link, #col2col2ql a:visited, #col2col2ql a:active {text-decoration:none; color:#00386B;}
+#col2col2ql a:hover {color:#000000; text-decoration:underline;}
+
+/* Related Links */
+.related-links200 {width: 200px; margin: 0; background-color: #EEEEEE; margin-bottom:10px; border: 1px solid; border-color: #C4C4C4;}		
+.related-links200 strong {background-color: #666666; display: block; padding: 7px 10px; line-height: normal; color: #F9F9F9;}
+.related-links200 blockquote {margin:3px 10px;padding:0; color:#868686; border:none;}
+.related-links200 p {padding: 10px 15px 0 15px; margin:0;}
+.related-links200 p.title {color:#00386B;	font-weight:bold;}
+.related-links200 ul {list-style:square; padding: 8px 8px 8px 30px; margin: 0;}
+.related-links200 ul li {padding: 0px 0px 5px 0px; margin: 0;}
+.related-links200 ol {padding: 8px 8px 8px 35px; margin: 0;}
+.related-links200 ol li {padding: 0px 0px 5px 0px; margin: 0;}
+.related-links200 a:link, #col2col2ql a:visited, #col2col2ql a:active {border-bottom:hidden !important; text-decoration:none !important; color:#00386B;}
+.related-links200 a:hover {color:#000000; border-bottom:dotted 1px #005A8B !important; background-color:#E5E5E5;}
+
+/* Adbox - 200px */
+.adbox-200px {width:200px; background-image:url(../images/backgrounds/bg-mask-box-200-top.png);	background-repeat:no-repeat; background-position:top; margin-bottom:20px;}
+.adbox-200px-bottom {clear:both;width:200px;height:20px;background-image:url(../images/backgrounds/bg-mask-box-200-bottom.png); background-repeat:no-repeat; background-position:bottom;}
+
+/* Adbox Global Styles */
+.adbox-content {/* previous padding:10px 20px 0 15px */ padding:0;}
+.adbox-adcontent {padding:15px 15px 0 15px;}
+.adbox-adcontent h2 {margin:0; padding:0 0 0 0 !important; text-align: center;}
+.adbox-content ul {padding:0;	margin:0;}
+.adbox-content li {padding:0; margin:0; list-style-type:none; clear:both;	margin:0; padding:10px 15px; border-bottom:dotted 1px !important;}
+.adbox-content-first-item {clear:both; margin-top:10px !important; padding-top:10px !important; border-top:dotted 1px !important;}
+.adbox-content h2 {margin:0; padding:10px 0 0 0; text-align: center;}
+.adbox-content p {clear:both; margin:0 0 10px 0; padding:0 0 10px 0;}
+.adbox-datearea {float:left; width:30px; height:30px; padding:0 5px 0 5px; text-align:center; margin-left:-15px; font-weight:bold;}
+.adbox-datearea-month {font-size:10px !important;}
+.adbox-datearea-day {font-size:16px !important;}
+.adbox-titlearea {margin-left:25px; padding-left:10px; border-left:solid 5px; line-height: 16px; font-size:11px; min-height:30px;}
+.adbox-more {float:right; padding:10px 15px 0 0;}
+.adbox-more ul {margin:0; padding:0;}
+.adbox-more li {margin:0; padding:0;}
+.noborder {border:hidden !important;}
+.adbox-adcontent img {margin-bottom: 10px;}
+.adbox-adcontent p {padding:10px 0 0 0;}
+
+/* Adbox - Leaf Green Background Color */
+.bgcolor-leafgreen .adbox-content-first-item {color:#FFFFFF;}
+.bgcolor-leafgreen .adbox-content h2 {color:#FFFFFF;}
+.bgcolor-leafgreen .adbox-content p {color:#FFFFFF;}
+.bgcolor-leafgreen .adbox-content li {color:#FFFFFF;}
+.bgcolor-leafgreen .adbox-datearea {color:#E3EEBF;}
+.bgcolor-leafgreen .adbox-titlearea {color:#FFFFFF; border-left-color:#617D00;}
+.bgcolor-leafgreen .adbox-more {color:#FFFFFF;}
+.bgcolor-leafgreen .adbox-more li {list-style-image:url(../images/typography/list_chevron_white.png);}
+.bgcolor-leafgreen .btm-border {border-bottom-color: #546C00 !important;}
+
+/* Adbox - Mineral Grey Background Color */
+.bgcolor-mineralgrey .adbox-content-first-item {color:#FFFFFF;}
+.bgcolor-mineralgrey .adbox-content h2 {color:#FFFFFF;}
+.bgcolor-mineralgrey .adbox-content p {color:#FFFFFF;}
+.bgcolor-mineralgrey .adbox-content li {color:#FFFFFF;}
+.bgcolor-mineralgrey .adbox-datearea {color:#F9F9F9;}
+.bgcolor-mineralgrey .adbox-titlearea {color:#FFFFFF; border-left-color:#B8BEC0;}
+.bgcolor-mineralgrey .adbox-more {color:#FFFFFF;}
+.bgcolor-mineralgrey .adbox-more li {list-style-image:url(../images/typography/list_chevron_white.png);}
+.bgcolor-mineralgrey .btm-border {border-bottom-color: #666F73 !important;}
+
+/* Adbox - Pool Blue Background Color */
+.bgcolor-poolblue .adbox-content li:hover {background-color: #666F73 !important;}
+.bgcolor-poolblue .adbox-content-first-item {color:#FFFFFF;}
+.bgcolor-poolblue .adbox-content h2 {color:#FFFFFF;}
+.bgcolor-poolblue .adbox-content p {color:#FFFFFF;}
+.bgcolor-poolblue .adbox-content li {color:#FFFFFF;}
+.bgcolor-poolblue .adbox-datearea {color:#F9F9F9;}
+.bgcolor-poolblue .adbox-titlearea {color:#FFFFFF; border-left-color:#B8BEC0;}
+.bgcolor-poolblue .adbox-more {color:#FFFFFF;}
+.bgcolor-poolblue .adbox-more li {list-style-image:url(../images/typography/list_chevron_white.png);}
+.bgcolor-poolblue .btm-border {border-bottom-color: #666F73 !important;}
+
+/* WordPress Only Styles */
+#col2col2 .widget_sp_image {border:none; display:block; margin:0; padding:0 0 10px 0; text-align:center;}
+#col2col2 .widget_sp_image a {border:none;}
+
+#col2col2 .widget_nav_menu{
+	background-color: #EEEEEE;
+    border: 1px solid #C4C4C4;
+    margin: 0 0 10px;
+    width: 200px;
+}
+
+#col2col2 .widget_nav_menu ul{
+	list-style: square outside none;
+	margin: 0;
+	padding: 8px 8px 8px 30px;
+}
+
+#col2col2 .widget_nav_menu li{	
+	margin: 0;
+    padding: 0 0 5px;
+}
+
+#col2col2 .widget_nav_menu h3{
+	font-family:Arial, Helvetica, sans-serif;
+	background-color: #666666;
+    color: #F9F9F9;
+    display: block;
+    line-height: normal;
+    padding: 7px 10px;
+	margin:0 auto;
+	font-size:12px;
+	text-align:left;
+	font-weight:bold;
+}
+
+#col2col2 .widget_text{	
+	background-color: #EEEEEE;	
+    border: 1px solid #C4C4C4;
+    margin: 0 0 10px;
+    width: 200px;
+}
+
+#col2col2 .widget_text p{
+	margin:10px;
+}
+
+#col2col2 .widget_text h3{
+	font-family:Arial, Helvetica, sans-serif;	
+	background-color: #666666;
+    color: #F9F9F9;
+    display: block;
+    line-height: normal;
+    padding: 7px 10px;
+	margin:0 auto;
+	font-size:12px;
+	text-align:left;
+	font-weight:bold;
+}
+
+/* Fix for Appalachian Center's right sidebar custom styles */
+
+#col2col2 h3.right-sidebar {
+	font-family:sans-serif;
+	font-weight:700;
+	font-size:12px;
+	text-align:left;
+	text-transform:uppercase;
+	background-color:#606060;
+	padding:8px;
+	border:solid 1px #CCC;
+	margin-left:-1px
+}

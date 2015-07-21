@@ -1,0 +1,110 @@
+/* layout955-rtcoltables.css */
+/* Updated May 24, 2011 by Cary Hazelwood */
+/* All modifications to this file must be approved by Cary Hazelwood */
+
+/* CSS Document */
+
+/* We collapse borders because we don't want cell spacing.
+   We specify the font family here too, including a generic fall-back.
+   We specify a global table font size, using 'ems' because they are
+   resizable and take their relative value from the global stylesheet. */
+.tbllistrtcol table {
+	border-collapse: collapse;
+	background-color:#dce6ed;
+	color: #000;
+	width: 200px;
+	margin-bottom: 30px;
+}
+
+/* We add letter spacing because all caps makes the letters scrunchy
+   Also, left aligned because it was favoured by my university for table
+   captions, but yours might be different. Actually for a scientific paper,
+   the caption would be more detailed, resembling a table 'summary' */
+.tbllistrtcol caption {
+    padding-bottom: 5px;
+    font-variant: small-caps;
+    letter-spacing: 0.1em;
+    text-align: left;
+	font-weight:bold;
+}
+
+/* Table headers should be clear, but concise and discreet.
+   The double border separates the row from caption and the table body 
+   without needing a different background colour. Because we've specified
+   a text colour, we also specify a background colour (even though it's the
+   same as the main table colour) to accommodate personal stylesheets. */
+.tbllistrtcol thead th {
+	border-top: 3px double #FFFFFF;
+	border-bottom: 3px double #FFFFFF;
+	padding: 4px 10px;
+	background-color: #4B78A0;
+	color: #FFFFFF;
+	text-align: left;
+	font-variant: small-caps;
+	letter-spacing: 0.1em;
+	line-height: normal;
+}
+
+/* We've given the table footer the same double border treatment for the
+   same reason.  It also acts as a nice "end of table" indicator. It's 
+   part of the data so we leave the text black. We also treat the header
+   and data the same way. */
+.tbllistrtcol tfoot th, .tbllist tfoot td {
+    border-top: 3px double #ccc;
+    border-bottom: 3px double #ccc;
+    padding: 2px 10px;
+    font-variant: small-caps;
+    letter-spacing: 0.1em;
+    vertical-align: bottom;
+}
+
+/* We now revert to discreet single pixel horizontal borders to separate
+   each entry.  If your table content is numerical data, you might want the
+   vertical borders too, but I find it's visually more pleasing and easier to
+   read online when there is plenty of padding instead of borders. 
+   NOTE: we treat the headers and data cells the same here, visually it's clear
+   enough (header text is bold) and does not affect screen-reader software */
+.tbllistrtcol tbody th, .tbllist tbody td {
+	border-bottom: 1px solid #ccc;
+    padding: 6px 10px;
+    text-align: left;
+    vertical-align: top;
+}
+
+/* Faux alpha transparency.  It's just a 16px square image (a PNG, but
+   could be a GIF) filled with a colour (I chose orange because it
+   contrasts pleasingly with blue - opposite on colour wheel) and then
+   every other pixel is filled with another colour (e.g. white) which is
+   made the transparent colour (ordinary transparency) - anything behind
+   the transparent pixels shows through and our wonderful brain fills in
+   the rest, thanks to Gestalt psychology.  Only really works when a solid
+   colour is required, such as table row rollovers. NOTE: IE doesn't like
+   tr:hover anyway so "pprrffffft!" to that! */
+.tbllistrtcol tbody tr:hover {
+	background-color: #FFFFDD;
+}
+
+/* CSS2 selectors - this just means the link in the fourth TD along
+   (the last column).  It simply adds a "download" icon and makes the
+   text all caps - will be ignored by older browsers. We also add a 
+   link colour (same as all other links) for personal stylesheets. */
+.tbllistrtcol tbody td+td+td+td a {
+	padding-right: 16px;
+    color: #00d;
+    font-variant: small-caps;
+    letter-spacing: 0.1em;
+}
+
+
+/* For some reason, the top definition is using a "tbllist" class rather than 
+	a "tbllistrtcol".  So, rather than changing above, I just extended here.  --AS */
+
+.tbllistrtcol tbody td {
+	border-bottom: 1px solid #ccc;
+    padding: 6px 10px;
+    text-align: left;
+    vertical-align: top;
+}
+
+
+

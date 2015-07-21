@@ -1,0 +1,60 @@
+/* layout955-spotlight.css */
+/* Updated May 24, 2011 by Cary Hazelwood */
+/* All modifications to this file must be approved by Cary Hazelwood */
+
+#byline {
+	text-transform: uppercase;
+	margin-top: -5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	color: #C8621B;
+}
+#byline a:link {color:#C9631C; !important}
+#storyfooter {
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	color: #006A8B;
+	background-color: #ECF7F9;
+	border-top-width: thin;
+	border-bottom-width: thin;
+	border-top-style: dashed;
+	border-bottom-style: dashed;
+	border-top-color: #B5DCE6;
+	border-bottom-color: #B5DCE6;
+	clear: both;
+}
+#categories {
+	text-transform: uppercase;
+	font-size: 11px;
+	float:left;
+}
+#categories a:link {color:#C9631C; !important}
+#bookmarkpage {float:right;}
+#bookmarkpage a:link, #bookmarkpage a:visited, #bookmarkpage a:active, #bookmarkpage a:hover {border:none; background:none;}
+
+.storysummary {
+	clear:both;
+	margin-bottom:15px;
+}
+.storysummary h2{
+	margin-top:0;
+	padding-top:0;
+}
+.storysummary .storydate {
+	display:block;
+	text-transform: uppercase;
+	color: #C8621B;
+	margin-bottom:10px;
+}
+#artlp {padding:20px; text-align:center; color: #C8621B;}

@@ -1,0 +1,143 @@
+body, p, td, th, div, blockquote, dl, ul, ol {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+body {
+	background-color: #E8E8E8; /* background color of #col1 */
+	background-image: url(../../images/layout/bg-middle-normalwshadow-nln.png);
+	background-position: center;
+	background-repeat: repeat-y;
+}
+#middle {
+	width:955px;
+	background-color:#F9F9F9;
+	color: #454545;
+	margin:0 auto;
+	clear:both;
+}
+#content {
+	padding:20px 20px;
+	line-height: 20px;		
+}
+h1 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:30px;
+	color:#005A8B;
+	font-weight: normal;
+	margin:0 0 15px 0;
+	padding:0;
+	line-height:36px;
+}
+
+h1+p {
+margin-top: 10px;
+}
+
+h2 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:24px;
+	color:#005A86;
+	font-weight: normal;
+	margin:15px 0 5px 0;
+	padding:0;
+	line-height:24px;
+}
+h2+ul {
+margin-top: 10px;
+}
+
+h3 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:18px;
+	color:#005A86;
+	font-weight: normal;
+	margin:15px 0 5px 0;
+	padding:0;	
+}
+h3+ul {
+margin-top: 10px;
+}
+p {
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+}
+ul {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 25px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+}
+li {
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+}
+#content a:link {color:#005A8B; text-decoration:none; border-bottom:dotted 1px #005A8B;}
+#content a:active {color:#005A8B; text-decoration:none; border-bottom:dotted 1px #005A8B;}
+#content a:visited {color:#005A8B; text-decoration:none; border-bottom:dotted 1px #005A8B;}
+#content a:hover {color:#005A8B; text-decoration:none; border-bottom:dotted 1px #005A8B; background-color:#E5E5E5;}
+-->
+.photo_right {
+
+  float:right;
+
+  border:solid 1px #005A8B;
+
+  margin-top: 5px;
+
+  margin-left:15px;
+
+  margin-bottom:5px;
+
+} 
+
+/* Body List Styles */
+.list-lowerroman {list-style-type: lower-roman;}
+.list-upperroman {list-style-type: upper-roman;}
+.list-loweralpha {list-style-type: lower-alpha;}
+.list-upperalpha {list-style-type: upper-alpha;}
+.listpdf {list-style-image:url(../../images/typography/list_pdf.gif);}
+.listxls {list-style-image:url(../../images/typography/list_excel.gif);}
+.listppt {list-style-image:url(../../images/typography/list_ppt.gif);}
+.listword {list-style-image:url(../../images/typography/list_word.gif);}
+.listlink {list-style-image:url(../../images/typography/list_extlink.gif);}
+.listchevron-green {list-style-image:url(../../images/typography/list_chevron_green.png);}
+
+/* Checkmarks */
+.listcheckmark005A8B {list-style-image:url(../../images/typography/checkmark005A8B.png)}
+.listcheckmark009B48 {list-style-image:url(../../images/typography/checkmark009B48.png)}
+.listcheckmarkDB3100 {list-style-image:url(../../images/typography/checkmarkDB3100.png)}
+.listcheckmarkDB7700 {list-style-image:url(../../images/typography/checkmarkDB7700.png)}
+
+/* Right Arrows */
+.listrtarrow005A8B {list-style-image:url(../../images/typography/rtarrow005A8B.png)}
+.listrtarrow009B48 {list-style-image:url(../../images/typography/rtarrow009B48.png)}
+.listrtarrowDB3100 {list-style-image:url(../../images/typography/rtarrowDB3100.png)}
+.listrtarrowDB7700 {list-style-image:url(../../images/typography/rtarrowDB7700.png)}
+
+/* Completed Items */
+.listinactive {color:#999999}
+.listactive009B48 {color:#009B48}
+
+/* Hanging Indent */
+.bib ul {margin:0;padding:0;}
+.bib ul li ul {margin:0 0 0 0px;padding:0 0 0 30px;}
+.hi {text-indent: -2em; padding-left: 2em; list-style:none;}
+.bib ul li ul li {margin:0;padding:0 0 0 25px;}
+
+/* Two-Column Photo List */
+#photo-list-2col { list-style:none; margin:0; padding:0;}
+#photo-list-2col li ul li h2 {margin-top:0;}
+#photo-list-2col li {padding-bottom:10px;}
+#photo-list-2col li img {float:left;margin:0 15px 0 0;display:inline; border:solid 1px #666;}
+#photo-list-2col li ul {margin:0; padding:0; list-style:none; overflow:auto;}
+#photo-list-2col li ul li {margin:0; padding:0}

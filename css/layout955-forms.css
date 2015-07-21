@@ -1,0 +1,57 @@
+/* layout955-forms.css */
+/* Updated May 24, 2011 by Cary Hazelwood */
+/* All modifications to this file must be approved by Cary Hazelwood */
+
+.form-sectiontitle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: normal;
+	margin-top: 0px;
+	margin-bottom: 3px;
+	color: #00386B;
+}
+
+div.form{}
+div.form h1 {
+	font-size:14px;
+	color:#000000;
+	padding-bottom:4px;
+}
+div.form p{padding-bottom:14px;}
+
+div.form input, div.form textarea {
+	font-family: Arial, Helvetica, sans-serif;
+	padding:5px;
+	border:1px solid #0085CC;
+	background-color:#E6F7FF;
+	color:#666666;
+	width:275px;
+	margin:0 0 5px 0;
+	display:block;
+}
+div.form select {
+	font-family: Arial, Helvetica, sans-serif;
+	padding:3px;
+	color:#000000;
+	width:300px;
+	margin-bottom:5px;	
+}
+div.form label{
+	clear:both;
+	font-family: Arial, Helvetica, sans-serif;
+	display:block;
+	margin-bottom:10px;
+	color:#555555;
+	line-height:normal;
+}
+div.form label span{
+	display:block;
+	float:left;
+	padding:7px;
+	width:200px;
+	text-align:left;
+	font-weight:bold;
+	font-size:16px;
+}
+div.form .checkbox {border:none; background:none; background:hidden; text-align:left; height:18px; width:24px;}

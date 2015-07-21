@@ -1,0 +1,152 @@
+/* layout955-header.css */
+/* Updated May 24, 2011 by Cary Hazelwood */
+/* All modifications to this file must be approved by Cary Hazelwood */
+
+#hdrbar {
+	margin:0;
+	width:100%;
+	height:146px;
+	background-color:#023e5f;
+	color:#E9F0F8;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	line-height:12px;
+	background-image: url(../images/header/hdr-background.png);
+	background-repeat: repeat-x;
+	background-position: top;
+	z-index:1;
+}
+#hdr {
+	margin:0 auto;
+	width:955px;
+	color:#E9F0F8;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	line-height:12px;
+	z-index:1;	
+}
+#hdrnavbar {
+	margin:0;
+	width:100%;
+	height:43px;
+	background-color:#023e5f;
+	color:#E9F0F8;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	line-height:12px;
+	background-image: url(../images/header/hdr-navbar-orange.png);
+	background-repeat: repeat-x;
+	background-position: top;
+	z-index:1;
+}
+#hdrnav {
+	margin:0 auto;
+	width:955px;
+	color:#E9F0F8;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	line-height:12px;
+	z-index:1;
+}
+#logo {
+	z-index:2;
+	position:relative;
+	display:block;	
+	height:181px;
+	float:left;
+}
+#hdrlinksrch {
+	margin:30px 20px 0px 0px;
+	width:344px;
+	float:right;
+}
+#hdrlinksrch a:link, #hdrlinksrch a:visited, #hdrlinksrch a:active {
+	color:#B7D7E8;
+	text-decoration:none;
+}
+#hdrlinksrch a:hover {
+	color:#EFAE83;
+	text-decoration:none;
+}
+#hdrlinksrch #linkcol1 {
+	float:left;
+	margin-left:0px;
+	padding:6px 12px;
+	background-color:#117EB9;
+	font-size:11px;
+	font-weight:bold;
+	border: 1px;
+	border-color: #317193;
+	width: 80px;
+	text-align: center;
+}
+#hdrlinksrch #linkcol2 {
+	float:left;
+	margin-left:13px;
+	padding:6px 12px;
+	background-color:#117EB9;
+	font-size:11px;
+	font-weight:bold;
+	border: 1px;
+	border-color: #317193;
+	width: 80px;
+	text-align: center;
+}
+#hdrlinksrch #linkcol3 {
+	float:left;
+	margin-left:13px;
+	padding:6px 12px;
+	background-color:#117EB9;
+	font-size:11px;
+	font-weight:bold;
+	border: 1px;
+	border-color: #317193;
+	width: 80px;
+	text-align: center;
+}
+#hdrlinksrch #hdrsearch {
+	clear:both;
+	float:left;
+	padding:15px;
+	background-color:#117EB9;
+	font-size:11px;
+	font-weight:bold;
+	border: 1px;
+	border-color: #317193;
+	margin-top:10px;
+	width: 308px;
+}
+form{margin:0;padding:0}
+ 
+.search-box{ /*outer background*/
+
+}
+ 
+input.search-field{ /*input field */
+	float: left;
+	border:0;
+	margin:0;
+	font-family:tahoma;
+	font-size: 12px;
+	padding: 3px 0px 0px 4px;
+	height:18px;
+	width: 280px;
+	background-color: #B7D7E8;
+	color: #154864;
+}
+ 
+input.search-go { /*search icon */
+float:left;
+border:0;
+margin:0;
+padding:0;
+margin-left: 3px;
+height: 21px;
+width: 21px;
+background: url(../images/header/hdr-searchiconv1.png) no-repeat top left;
+cursor: pointer;
+}
+ 
+input.search-go:hover{ /*search icon hover "Does Not work in ie6" */
+background:url(../images/header/hdr-searchiconv1.png) no-repeat bottom left;
+}

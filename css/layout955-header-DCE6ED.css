@@ -1,0 +1,73 @@
+/* layout955-header-DCE6ED.css */
+/* Updated May 24, 2011 by Cary Hazelwood */
+/* All modifications to this file must be approved by Cary Hazelwood */
+
+#bchdrnav {
+	width:945px;
+	height:23px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #DCE6ED;
+	text-align: left;
+	margin:0 auto;
+	list-style:none;
+	padding:5px;
+}
+#bchdrnav ul {
+	margin:0;
+	padding:0;
+	float:right;
+}
+#bchdrnav ul li {
+	display: inline;
+	list-style-type: none;
+	padding:0 10px 0 10px;
+	border-right-style:dotted;
+	border-right-width:1px;
+	border-right-color:#DCE6ED;
+	vertical-align:middle;
+}
+#bchdrnav ul li.last {
+	padding:0;
+	border-right:none;
+	padding:0 0 0 10px;
+}
+
+#bchdrnav a:link, #bchdrnav a:visited, #bchdrnav a:active {
+	color: #DCE6ED;
+	text-decoration: none;
+}
+#bchdrnav a:hover {
+	color: #E9F0F8;
+	text-decoration: underline;
+}
+#bchdrnav ul li form {
+	margin:0;
+	padding:0;
+	display:inline;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+#bchdrnav input {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #005A8B;
+	padding:0;
+	margin:0;
+	vertical-align:baseline;	
+}
+.boxsearch {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #005A8B;
+	background-color: #DCE6ED;
+	vertical-align:baseline;
+	height:17px;
+}
+.btnsearch {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #005A8B;
+	background-color: #DCE6ED;
+	vertical-align:baseline;
+}

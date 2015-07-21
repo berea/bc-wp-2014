@@ -1,0 +1,93 @@
+/* layout955-ads.css */
+/* Updated June 30, 2011 by Cary Hazelwood */
+/* All modifications to this file must be approved by Cary Hazelwood */
+
+.adspacer-top {margin-top:20px;}
+.adspacer-bottom {margin-bottom:20px;}
+.adspacer-bottomcolumn {margin-bottom:20px;}
+
+.box-400x165-solid {background-image:url(../images/backgrounds/bg-mask-box-400x165-solid.png)}
+.box-400x165-gradient1 {background-image:url(../images/backgrounds/bg-mask-box-400x165-gradient1.png)}
+.box-400x165-gradient2 {background-image:url(../images/backgrounds/bg-mask-box-400x165-gradient2.png)}
+.box-400x165-gradient3 {background-image:url(../images/backgrounds/bg-mask-box-400x165-gradient3.png)}
+.box-400x165-gradient4 {background-image:url(../images/backgrounds/bg-mask-box-400x165-gradient4.png)}
+
+#bg-ad-3095b4-200px {width:200px;}
+#bg-ad-3095b4-200px .top {width:200px; height:15px; background-image:url(../images/backgrounds/bg-ad-3095b4-180px-top.png);}
+#bg-ad-3095b4-200px .middle {width:170px; background-image:url(../images/backgrounds/bg-ad-3095b4-180px-middle.png); background-repeat:repeat-y; padding:0 15px 0 15px; color:#FFF;}
+#bg-ad-3095b4-200px .middle p {margin:0;padding:0 0 10px 0;}
+#bg-ad-3095b4-200px .middle h2 {color:#FFFFFF; padding-top:0;margin-top:0;}
+#bg-ad-3095b4-200px .bottom {width:200px; height:15px; background-image:url(../images/backgrounds/bg-ad-3095b4-180px-bottom.png);}
+#bg-ad-3095b4-200px .middle img {border:none;}
+#bg-ad-3095b4-200px .middle a:hover {border:none;}
+
+.adbox3095b4 {background:url(../images/backgrounds/3095B4-Ad-Box.png); width:410px; height:135px; overflow:visible; color:#FFFFFF; padding:15px; z-index: 5;}
+.adbox3095b4 h2 {color:#FFFFFF;}
+.adbox3095b4 p {margin:0;padding:0;}
+.adbox3095b4 img {border:none; float:right; padding-left:5px;}
+.adbox3095b4 a:link {color:#FFFFFF;text-decoration:none;}
+.adbox3095b4 a:visited {color:#FFFFFF;text-decoration:none;}
+.adbox3095b4 a:active {color:#FFFFFF;text-decoration:none;}
+.adbox3095b4 a:hover {color:#FFFFFF; border-bottom:dotted 1px #EA9760;text-decoration:none;}
+.adbox3095b4 .readmore {text-decoration:none; padding-top:7px; z-index: 6; width: 150px; float: right;}
+.adbox3095b4 .readmore img {border:none; float:right; padding-left:5px;}
+.adbox3095b4 .readmore a:hover {border:none;}
+
+/* Box Width 595px */
+.box-595px {width:595px; background-image:url(../images/backgrounds/bg-mask-box-595-top.png); background-repeat:no-repeat; background-position:top; margin-bottom:20px;}
+.box-595px-content {padding:10px 15px 0 15px;}
+.box-595px-content ul {padding:0; margin:0;}
+.box-595px-content li {padding:0; margin:0; list-style-type:none; clear:both; margin:0;	padding:10px 15px;}
+.box-595px h2 {margin:0; padding:10px 0 0 0; text-align: center;}
+.box-595px p {clear:both; margin:0 0 10px 0; padding:0 0 10px 0;}
+.box-595px-bottom {clear:both; width:595px; height:20px; background-image:url(../images/backgrounds/bg-mask-box-595-bottom.png); background-repeat:no-repeat; background-position:bottom;}
+
+/* Box Width 410px */
+.adbox400x165 {width:410px;height:135px;color:#FFFFFF; padding:15px;}
+.adbox400x165 h2 {color:#FFFFFF;}
+.adbox400x165 p {margin:0;padding:0;}
+.adbox400x165 img {border:none; float:right; padding-left:5px;}
+.adbox400x165 a:link {color:#FFFFFF !important;border-bottom:dotted 1px #FFFFFF !important;text-decoration:none;}
+.adbox400x165 a:visited {color:#FFFFFF !important;border-bottom:dotted 1px #FFFFFF !important;text-decoration:none;}
+.adbox400x165 a:active {color:#FFFFFF !important;border-bottom:dotted 1px #FFFFFF !important;text-decoration:none;}
+.adbox400x165 a:hover {color:#FFCA95 !important;border-bottom:dotted 1px #FFCA95 !important;text-decoration:none;}
+.adbox400x165 .readmore {text-decoration:none;padding-top:7px;z-index: 6;width: 150px;float: right;}
+.adbox400x165 .readmore img {border:none; float:right; padding-left:5px;}
+.adbox400x165 .readmore a:hover {border:none;}
+.adbox400x165 .lcol {width:200px; float:left;}
+.adbox400x165 .rcol {width:200px; float:right;}
+.adbox400x165 .ftr-content {width:410px; height:125px; line-height: 18px;}
+.adbox400x165 .photo-left {border:none;	float:left;	margin:0 15px 0 0; padding:0; height:125px; width:160px;}
+
+/* Box Width 285px */
+.box-285px {width:285px; background-image:url(../images/backgrounds/bg-mask-box-285-top.png); background-repeat:no-repeat; background-position:top;	margin-bottom:20px;}
+.box-285px-content {padding:10px 15px 0 15px;}
+.box-285px-content ul {padding:0; margin:0;}
+.box-285px-content li {padding:0; margin:0; list-style-type:none; clear:both; margin:0; padding:10px 15px;}
+.box-285px h2 {margin:0; padding:10px 0 10px 0; text-align: center;}
+.box-285px p {clear:both; margin:0 0 10px 0; padding:0 0 10px 0;}
+.box-285px-bottom {clear:both; width:285px; height:20px; background-image:url(../images/backgrounds/bg-mask-box-285-bottom.png); background-repeat:no-repeat; background-position:bottom;}
+
+/* Box Width 235px */
+.box-235px {width:235px; background-image:url(../images/backgrounds/bg-mask-box-235-top.png); background-repeat:no-repeat; background-position:top;	margin-bottom:20px;}
+.box-235px-content {padding:10px 15px 0 15px;}
+.box-235px-content ul {padding:0; margin:0;}
+.box-235px-content li {padding:0; margin:0; list-style-type:none; clear:both; margin:0; padding:10px 15px;}
+.box-235px h2 {margin:0; padding:10px 0 10px 0; text-align: center;}
+.box-235px p {clear:both; margin:0 0 10px 0; padding:0 0 10px 0;}
+.box-235px-bottom {clear:both; width:235px; height:20px; background-image:url(../images/backgrounds/bg-mask-box-235-bottom.png); background-repeat:no-repeat; background-position:bottom;}
+
+/* Box Width 200px */
+.box-200px {width:200px; background-image:url(../images/backgrounds/bg-mask-box-200-top.png); background-repeat:no-repeat; background-position:top;	margin-bottom:20px;}
+.box-200px-content {padding:10px 15px 0 15px;}
+.box-200px-content ul {padding:0; margin:0;}
+.box-200px-content li {padding:0; margin:0; list-style-type:none; clear:both; margin:0; padding:10px 15px;}
+.box-200px h2, .box-200px h3 {margin:0; padding:10px 0 10px 0; text-align: center;}
+.box-200px p {clear:both; margin:0 0 10px 0; padding:0 0 10px 0;}
+.box-200px-bottom {clear:both; width:200px; height:20px; background-image:url(../images/backgrounds/bg-mask-box-200-bottom.png); background-repeat:no-repeat; background-position:bottom;}
+.box-200px img {margin-bottom:10px;}
+
+/* Box Read More Button */
+.btn-readmore {text-decoration:none;padding-top:7px;z-index: 6;width: 150px;float: right;}
+.btn-readmore img {border:none; float:right; padding-left:5px;}
+.btn-readmore a:hover {border:none;}

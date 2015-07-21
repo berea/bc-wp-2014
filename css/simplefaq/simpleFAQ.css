@@ -1,0 +1,25 @@
+#faqList p {margin:0 0 10px 0;padding:0}
+#faqList ul {margin:0;padding:0}
+#faqList li {margin:0 0 0 -30px;padding:0;list-style: none; }
+#faqList .question {
+  padding-left: 20px;
+  background: transparent url('../../images/faq/simplefaq/faq-chevron-leafgreen-right.png') no-repeat;
+  background-position:left top;
+  font-family:Georgia, "Times New Roman", Times, serif;
+  font-size:16px;
+  color:#005A86;
+  font-weight: normal;
+}
+#faqList li.simpleFAQShowing .question {
+  background: transparent url('../../images/faq/simplefaq/faq-chevron-leafgreen-down.png') no-repeat;
+  background-position:0px 5px left top;  
+}
+#faqList .simpleFAQHover { color: #060; }
+#faqList .answer {
+  margin:5px 0;
+  border: 1px dashed #CCCCCC;
+  padding: 20px;
+}
+#faqList .answer ul {margin:10px 0;padding:0;}
+#faqList .answer li {margin:0 0 0 25px;padding:0;list-style:disc;}
+.tags { color: #999; }

@@ -1,0 +1,110 @@
+/* layout955-section.css */
+/* Updated Oct. 2, 2014 by Cary Hazelwood */
+/* All modifications to this file must be approved by Cary Hazelwood */
+
+#sectiontitle {margin:0 auto -1px auto;width:935px;color:#E9F0F8;font-family:Georgia, "Times New Roman", Times, serif;font-size:32px;line-height:normal;background-image:url(../images/layout/bg-sectiontitle-drkgray.png);background-repeat: repeat-y;background-position: bottom;padding:20px 40px;}
+#sectiontitle .logo {vertical-align:middle;border:none;margin-right:20px;}
+
+/* For sections that need a title and subtitle */
+
+#sectiontitle .small {font-size:24px;}
+#sectiontitle p {margin:0;padding:0 0 0 15px; display:inherit;font-family:Georgia, "Times New Roman", Times, serif;font-size:32px;}
+#sectiontitle .lcol {float:left; width:250px;}
+#sectiontitle .rcol {float:right; width:650px;}
+#sectiontitle .subtitle {font-size:14px;line-height:normal;}
+
+#hornav {
+	width: 100%;
+	float: left;
+	margin: 0 0 -10px 0;
+	padding: 0;
+	list-style: none;
+	font-size:14px;
+}
+#hornav li {
+	float: left; }
+#hornav li a {
+	display: block;
+	padding: 0 20px;
+	margin: 8px 0;
+	text-decoration: none;
+	font-weight: bold;
+	color: #B5B5B5;
+	border-right: 1px dotted #B5B5B5;
+}
+#hornav li a:hover {
+	color: #E37D36;
+}
+#hornav .firstitem {padding-left:2px !important;}
+#hornav .lastitem {border-right:none !important;}
+
+#bc-top-nav {
+	z-index:1972 !important;
+	position:relative;
+}
+#bc-top-nav ul {
+	float: left;
+	-webkit-transition: .2s;
+	transition: .2s;
+	margin:0;
+	padding:0;
+	font-size:14px;
+}
+
+#bc-top-nav li {
+	float: left;
+	position: relative;
+	width: 150px;
+	list-style: none;
+	-webkit-transition: .2s;
+	transition: .2s;
+}
+
+#bc-top-nav a {
+	display: block;
+	text-decoration: none;
+	padding: 10px 15px;
+	color: #B5B5B5;
+	font-weight: bold;
+}
+
+#bc-top-nav ul ul {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	visibility: hidden;
+	opacity: 0;
+}
+
+#bc-top-nav ul ul ul {
+	left: 100%;
+	top: 0;
+}
+
+#bc-top-nav li:hover a {
+	color: #454545;	
+}
+
+#bc-top-nav li:hover, #bc-top-nav li:hover li {
+	background: #ddd;
+}
+
+#bc-top-nav li li:hover, #bc-top-nav li li:hover li {
+	background: #bbb;
+	color: #000;
+}
+#bc-top-nav li li:hover a {
+	color: #ffffff;	
+}
+
+#bc-top-nav li li li:hover {
+	background: #999;
+	color: #000;	
+}
+#bc-top-nav li li li:hover a {
+	color: #ffffff;	
+}
+#bc-top-nav li:hover > ul {
+	visibility: visible;
+	opacity: 1;
+}

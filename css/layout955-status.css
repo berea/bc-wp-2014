@@ -1,0 +1,40 @@
+/* layout955-status.css */
+/* Updated May 24, 2011 by Cary Hazelwood */
+/* All modifications to this file must be approved by Cary Hazelwood */
+
+#status {margin:0;padding:0;}
+#status p {margin:0 0 0 20px;padding:0;}
+#status strong {font-size: 16px;}
+#status ul {margin:0;padding:0;list-style: none;}
+#status ul li {
+	margin:0;
+	padding:5px 0;
+	border-bottom:dotted 1px;
+	border-bottom-color: #4D7A8E;
+}
+
+#status ul li.up
+{
+background-image: url(http://www.berea.edu/images/typography/checkmark009B48.png);
+background-repeat: no-repeat;
+background-position: 0 8px;
+padding-left: 25px;
+}
+
+#status ul li.problem
+{
+background-image: url(http://www.berea.edu/images/typography/exclamationmarkDB7700.png);
+background-repeat: no-repeat;
+background-position: 0 8px;
+padding-left: 25px;
+}
+
+#status ul li.down
+{
+background-image: url(http://www.berea.edu/images/typography/letterxDB3100.png);
+background-repeat: no-repeat;
+background-position: 0 8px;
+padding-left: 25px;
+}
+
+#status .downtime {color:#999999;}
