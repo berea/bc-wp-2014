@@ -12,9 +12,8 @@
  * @since Starkers 3.0
  */
 
-get_header(); ?>
+get_header();
 
-<?php
 	/* Queue the first post, that way we know
 	 * what date we're dealing with (if that is the case).
 	 *
@@ -25,17 +24,19 @@ get_header(); ?>
 		the_post();
 ?>
 
-			<h1>
-<?php if ( is_day() ) : ?>
-				<?php printf( __( 'Daily Archives: %s', 'twentyten' ), get_the_date() ); ?>
-<?php elseif ( is_month() ) : ?>
-				<?php printf( __( 'Monthly Archives: %s', 'twentyten' ), get_the_date('F Y') ); ?>
-<?php elseif ( is_year() ) : ?>
-				<?php printf( __( 'Yearly Archives: %s', 'twentyten' ), get_the_date('Y') ); ?>
-<?php else : ?>
-				<?php _e( 'Blog Archives', 'twentyten' ); ?>
-<?php endif; ?>
-			</h1>
+<h1>
+	<?php
+		if ( is_day() ) :
+			printf( __( 'Daily Archives: %s', 'twentyten' ), get_the_date() );
+		elseif ( is_month() ) :
+			printf( __( 'Monthly Archives: %s', 'twentyten' ), 	get_the_date('F Y') );
+		elseif ( is_year() ) :
+			printf( __( 'Yearly Archives: %s', 'twentyten' ), get_the_date('Y') );
+		else :
+						_e( 'Blog Archives', 'twentyten' );
+		endif;
+	?>
+</h1>
 
 <?php
 	/* Since we called the_post() above, we need to
@@ -49,7 +50,7 @@ get_header(); ?>
 	 * called loop-archives.php and that will be used instead.
 	 */
 	 get_template_part( 'loop', 'archive' );
-?>
 
-<?php get_sidebar(); ?>
-<?php get_footer(); ?>
+
+get_sidebar();
+get_footer(); ?>
