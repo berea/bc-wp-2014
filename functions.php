@@ -213,8 +213,7 @@ function twentyten_filter_wp_title( $title, $separator )
 	// We'll display whichever one applies, if we're not looking at the first page.
 	global $paged, $page;
 
-	if ( is_search() )
-  {
+	if ( is_search() ) {
 		// If we're a search, let's start over:
 		$title = sprintf( __( 'Search results for %s', 'twentyten' ), '"' . get_search_query() . '"' );
 		// Add a page number if we're on page 2 or more:
@@ -313,8 +312,7 @@ add_filter( 'excerpt_more', 'twentyten_auto_excerpt_more' );
  */
 function twentyten_custom_excerpt_more( $output )
 {
-	if ( has_excerpt() && ! is_attachment() )
-  {
+	if ( has_excerpt() && ! is_attachment() ) {
 		$output .= twentyten_continue_reading_link();
 	}
 	return $output;
@@ -537,16 +535,11 @@ if ( ! function_exists( 'twentyten_posted_in' ) ) :
   	// Retrieves tag list of current post, separated by commas.
   	$tag_list = get_the_tag_list( '', ', ' );
 
-  	if ( $tag_list )
-    {
+  	if ( $tag_list ) {
   		$posted_in = __( 'This entry was posted in %1$s and tagged %2$s. Bookmark the <a href="%3$s" title="Permalink to %4$s" rel="bookmark">permalink</a>.', 'twentyten' );
-  	}
-    elseif ( is_object_in_taxonomy( get_post_type(), 'category' ) )
-    {
+  	} elseif ( is_object_in_taxonomy( get_post_type(), 'category' ) ) {
   		$posted_in = __( 'This entry was posted in %1$s. Bookmark the <a href="%3$s" title="Permalink to %4$s" rel="bookmark">permalink</a>.', 'twentyten' );
-  	}
-    else
-    {
+  	} else {
   		$posted_in = __( 'Bookmark the <a href="%3$s" title="Permalink to %4$s" rel="bookmark">permalink</a>.', 'twentyten' );
   	}
 
@@ -559,8 +552,8 @@ if ( ! function_exists( 'twentyten_posted_in' ) ) :
   		the_title_attribute( 'echo=0' )
   	);
 
-  	if (!function_exists(pointelle_get_custom_field_meta))
-    {
+  	if (!function_exists(pointelle_get_custom_field_meta)) {
+
     	function pointelle_get_custom_field_meta($post_obj,$args)
       {
       	$defaults = array('field' => '',);
