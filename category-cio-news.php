@@ -12,8 +12,8 @@ get_header(); ?>
         <?php get_sidebar(); ?>
 
         <div id="col2">
-          <div id="col2col1">
-            <div id="content">
+            <div id="col2col1">
+                <div id="content">
                     <?php
                     if (has_post_thumbnail())
                       the_post_thumbnail();
@@ -45,13 +45,13 @@ get_header(); ?>
             <div id="col2col2">
               <?php // Begin Contact Info widget area
                 if ( is_active_sidebar( 'right-sidebar' ) ) : ?>
-                 <div id="right-sidebar">
-                    <?php dynamic_sidebar( 'right-sidebar' ); ?>
-                 </div>
+                    <div id="right-sidebar">
+                        <?php dynamic_sidebar( 'right-sidebar' ); ?>
+                    </div>
                  <?php endif; // end Contact Info widget area ?>
-             </div>
+            </div>
 
-         <div class="clearboth"></div>
+        <div class="clearboth"></div>
         </div>
     <div class="clearboth"></div>
     </div>

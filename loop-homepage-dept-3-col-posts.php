@@ -52,9 +52,11 @@ while ( have_posts() ) : the_post();
     if ( in_category( _x('gallery', 'gallery category slug', 'twentyten') ) ) : ?>
         <h2><a href="<?php the_permalink(); ?>"
             title="<?php printf( esc_attr__( 'Permalink to %s', 'twentyten' ),
-                                                     the_title_attribute( 'echo=0' ) ); ?>"
+                                 the_title_attribute( 'echo=0' ) ); ?>"
             rel="bookmark">
+
             <?php the_title(); ?>
+
         </a></h2>
 
         <?php
@@ -65,12 +67,12 @@ while ( have_posts() ) : the_post();
 
         else :
             $images = get_children( array( 'post_parent' => $post->ID,
-                                                                         'post_type' => 'attachment',
-                                                                         'post_mime_type' => 'image',
-                                                                         'orderby' => 'menu_order',
-                                                                         'order' => 'ASC',
-                                                                         'numberposts' => 999
-            ) );
+                                           'post_type' => 'attachment',
+                                           'post_mime_type' => 'image',
+                                           'orderby' => 'menu_order',
+                                           'order' => 'ASC',
+                                           'numberposts' => 999
+                      ) );
 
             $total_images = count( $images );
             $image = array_shift( $images );
@@ -81,9 +83,9 @@ while ( have_posts() ) : the_post();
             <p>
                 <?php
                 printf( __( 'This gallery contains <a %1$s>%2$s photos</a>.', 'twentyten' ),
-                                'href="' . get_permalink() . '" title="' . sprintf( esc_attr__( 'Permalink to %s', 'twentyten' ),
-                                 the_title_attribute( 'echo=0' ) ) . '" rel="bookmark"',
-                                $total_images
+                        'href="' . get_permalink() . '" title="' . sprintf( esc_attr__( 'Permalink to %s', 'twentyten' ),
+                         the_title_attribute( 'echo=0' ) ) . '" rel="bookmark"',
+                        $total_images
                 );
                 ?>
             </p>
@@ -101,8 +103,8 @@ while ( have_posts() ) : the_post();
                     |
     <?php
     comments_popup_link( __( 'Leave a comment', 'twentyten' ),
-                                             __( '1 Comment', 'twentyten' ),
-                                             __( '% Comments', 'twentyten' )
+                         __( '1 Comment', 'twentyten' ),
+                         __( '% Comments', 'twentyten' )
     );
     edit_post_link( __( 'Edit', 'twentyten' ), '|', '' );
 
@@ -119,8 +121,8 @@ while ( have_posts() ) : the_post();
         echo "|";
 
         comments_popup_link( __( 'Leave a comment', 'twentyten' ),
-                                                 __( '1 Comment', 'twentyten' ),
-                                                 __( '% Comments', 'twentyten' )
+                             __( '1 Comment', 'twentyten' ),
+                            __( '% Comments', 'twentyten' )
         );
         edit_post_link( __( 'Edit', 'twentyten' ), '| ', '' );
 
@@ -129,7 +131,7 @@ while ( have_posts() ) : the_post();
     else : ?>
         <h2><a href="<?php the_permalink(); ?>"
             title="<?php printf( esc_attr__( 'Permalink to %s', 'twentyten' ),
-                                                     the_title_attribute( 'echo=0' ) ); ?>"
+                                 the_title_attribute( 'echo=0' ) ); ?>"
             rel="bookmark">
             <?php the_title(); ?>
         </a></h2>
@@ -157,8 +159,8 @@ while ( have_posts() ) : the_post();
             <?php
             if ( count( get_the_category() ) ) :
                 printf( __( 'Posted in %2$s', 'twentyten' ),
-                                'entry-utility-prep entry-utility-prep-cat-links',
-                                get_the_category_list( ', ' ) ); ?>
+                            'entry-utility-prep entry-utility-prep-cat-links',
+                            get_the_category_list( ', ' ) ); ?>
 
                 <!-- NOOOOOOOOOOOOOOOOOOOOOOOO!!!!!!!  -->
                 <span style="padding-left:8px;">|<span style="padding-left:8px;">
@@ -170,14 +172,14 @@ while ( have_posts() ) : the_post();
 
             if ( $tags_list ):
                 printf( __( 'Tagged %2$s', 'twentyten' ),
-                                'entry-utility-prep entry-utility-prep-tag-links',
-                                $tags_list );
+                            'entry-utility-prep entry-utility-prep-tag-links',
+                            $tags_list );
                 echo "|";
             endif;
 
             comments_popup_link( __( 'Leave a comment', 'twentyten' ),
-                                                     __( '1 Comment', 'twentyten' ),
-                                                     __( '% Comments', 'twentyten' )
+                                 __( '1 Comment', 'twentyten' ),
+                                 __( '% Comments', 'twentyten' )
             );
             edit_post_link( __( 'Edit', 'twentyten' ), '| ', '' );
             ?>

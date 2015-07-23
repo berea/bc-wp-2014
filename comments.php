@@ -33,11 +33,11 @@ endif;?>
     <h3 id="comments-title">
         <?php
         printf( _n( 'One Response to %2$s',
-                                '%1$s Responses to %2$s',
-                                get_comments_number(),
-                                'twentyten' ),
-                        number_format_i18n( get_comments_number() ),
-                                                                 '' . get_the_title() . '' );
+                    '%1$s Responses to %2$s',
+                    get_comments_number(),
+                    'twentyten' ),
+                number_format_i18n( get_comments_number() ),
+                '' . get_the_title() . '' );
         ?>
     </h3>
 

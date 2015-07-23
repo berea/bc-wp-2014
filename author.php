@@ -26,30 +26,30 @@ get_header(); ?>
           <div id="col2col1">
             <div id="content">
 
-                    <h1>Recent Posts from <?php printf( '%s', get_the_author() ); ?></h1>
+                <h1>Recent Posts from <?php printf( '%s', get_the_author() ); ?></h1>
 
-                    <?php
-                        /* Since we called the_post() above, we need to
-                         * rewind the loop back to the beginning that way
-                         * we can run the loop properly, in full.
-                         */
-                        rewind_posts();
+                <?php
+                    /* Since we called the_post() above, we need to
+                     * rewind the loop back to the beginning that way
+                     * we can run the loop properly, in full.
+                     */
+                    rewind_posts();
 
-                        /* Run the loop for the author archive page to output the authors posts
-                         * If you want to overload this in a child theme then include a file
-                         * called loop-author.php and that will be used instead.
-                         */
-                         get_template_part( 'loop', 'author' );
-                    ?>
+                    /* Run the loop for the author archive page to output the authors posts
+                     * If you want to overload this in a child theme then include a file
+                     * called loop-author.php and that will be used instead.
+                     */
+                     get_template_part( 'loop', 'author' );
+                ?>
           </div>
             </div>
 
             <div id="col2col2">
               <?php // Begin Contact Info widget area
                 if ( is_active_sidebar( 'right-sidebar' ) ) : ?>
-                     <div id="right-sidebar">
+                    <div id="right-sidebar">
                         <?php dynamic_sidebar( 'right-sidebar' ); ?>
-                     </div>
+                    </div>
               <?php endif; // end Contact Info widget area ?>
              </div>
 

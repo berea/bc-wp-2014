@@ -25,7 +25,7 @@ get_header();
       ) );
       ?>
     <!-- NOOOOOOOOOOOOOOOOOO!!! -->
-    <div style="clear:both"></div>
+    <div class="clearboth"></div>
   </div>
 
   <div id="middle">
@@ -68,11 +68,9 @@ get_header();
           ?>
         </div>
       </div>
-      <!-- NOOOOOOOOOOOOOOOOOO!!! -->
       <div class="clearboth"></div>
 
     </div>
-    <!-- NOOOOOOOOOOOOOOOOOO!!! -->
     <div class="clearboth"></div>
 
   </div>
