@@ -8,13 +8,17 @@ get_header(); ?>
     <div id="sectiontitle"><?php bloginfo( $show ); ?></div>
     <div id="middle1col">
         <div id="hpcontent">
-            <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
-            <?php if ( is_front_page() ) { ?>
-            <?php } else { ?>
-            <?php } ?>
-            <?php the_content(); ?>
-            <?php endwhile; ?>
-            <div style="clear:both"></div>
+            <?php
+            if ( have_posts() ) while ( have_posts() ) : the_post();
+
+                if ( is_front_page() ) {
+                } else {
+                }
+
+                the_content();
+            endwhile;
+            ?>
+            <div class="clearboth"></div>
         </div>
     </div>
 </div>

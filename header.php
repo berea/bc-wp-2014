@@ -41,8 +41,8 @@
                 <a href="/">
                     <img src="/wp-content/themes/BereaCollege/images/hdr-bclogowdip.png"
                         border="0" alt="Berea College Logo" />
-                    </a>
-                </div>
+                </a>
+            </div>
             <div id="hdrlinksrch">
             <div id="linkcol1"><a href="/contact-us">CONTACT US</a></div>
             <div id="linkcol2"><a href="/directory">DIRECTORY</a></div>
