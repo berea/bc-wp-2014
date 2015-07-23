@@ -18,13 +18,13 @@ get_header(); ?>
   </div>
   <div id="hpcontent">
 
-  <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
-          <?php if ( is_front_page() ) { ?>
-          <?php } else { ?>
-          <?php } ?>
-          <?php the_content(); ?>
-          <?php endwhile; ?>
+  <?php if ( have_posts() ) while ( have_posts() ) : the_post();
+      if ( is_front_page() ) {
+      } else {
+      }
+      the_content();
+  endwhile; ?>
 
-    <div style="clear:both"></div>
+    <div class="clearboth"></div>
   </div>
 <?php get_footer(); ?>

@@ -14,8 +14,8 @@ get_header(); ?>
         <?php get_sidebar(); ?>
 
         <div id="col2">
-          <div id="col2col1">
-            <div id="content">
+            <div id="col2col1">
+                <div id="content">
                     <?php
                     /* Run the loop to output the posts.
                      * If you want to overload this in a child theme then include a file
@@ -43,13 +43,13 @@ get_header(); ?>
                         edit_post_link( __( 'Edit', 'twentyten' ), '', '' );
                         ?>
                     <?php endwhile; ?>
-          </div>
+                </div>
             </div>
 
-        <div id="col2col2"></div>
-        <div style="clear:both"></div>
+            <div id="col2col2"></div>
+            <div class="clearboth"></div>
         </div>
-    <div style="clear:both"></div>
+    <div class="clearboth"></div>
     </div>
 </div>
 
