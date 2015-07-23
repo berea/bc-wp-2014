@@ -11,10 +11,10 @@ get_header();
 
 ?>
 
-	<h1><?php
-		printf( __( 'Tag Archives: %s', 'twentyten' ),
-						'' . single_tag_title( '', false ) . '' );
-	?></h1>
+    <h1><?php
+        printf( __( 'Tag Archives: %s', 'twentyten' ),
+                        '' . single_tag_title( '', false ) . '' );
+    ?></h1>
 
 <?php
 /* Run the loop for the tag archive to output the posts
