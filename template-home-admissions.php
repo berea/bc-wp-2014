@@ -40,17 +40,17 @@
             </div>
         </div>
         <div class="col4">
-            <div id="nav-postit">
-            <a href="/admissions/meet-your-counselor/"><div id="counselors-button"></div></a>
-            <a href="/admissions/parent-resource/"><div id="parents-button"></div></a>
-            <a href="/admissions/nominate/"><div id="students-button"></div></a>
+            <div id="nav-postit-admissions">
+            <a href="/admissions/meet-your-counselor/"><div id="counselors-button-admissions"></div></a>
+            <a href="/admissions/parent-resource/"><div id="parents-button-admissions"></div></a>
+            <a href="/admissions/nominate/"><div id="students-button-admissions"></div></a>
           </div>
           </div>
-        <div style="clear:both"></div>
+        <div class="clearboth"></div>
       </div>
 
-      <div style="clear:both"></div>
+      <div class="clearboth"></div>
     </div>
-    <div style="clear:both"></div>
+    <div class="clearboth"></div>
   </div>
 <?php get_footer(); ?>
