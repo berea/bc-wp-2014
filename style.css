@@ -222,7 +222,7 @@ div#ooga {
     width: 225px;
 }
 div#image-fb {
-    background: url("/wp-content/themes/BereaCollege/images/admissions/facebook_button.png") no-repeat scroll 0 0 transparent;
+    background: url("/wp-content/themes/BereaCollege/images/connect/facebook_button.png") no-repeat scroll 0 0 transparent;
     height: 30px;
     margin-left: 35px;
     margin-top: 60px;
@@ -230,7 +230,7 @@ div#image-fb {
     width: 140px;
 }
 div#image-twitter {
-    background: url("/wp-content/themes/BereaCollege/images/admissions/twitter_button.png") no-repeat scroll 0 0 transparent;
+    background: url("/wp-content/themes/BereaCollege/images/connect/twitter_button.png") no-repeat scroll 0 0 transparent;
     height: 27px;
     margin-left: 35px;
     margin-top: 110px;
@@ -238,7 +238,7 @@ div#image-twitter {
     width: 141px;
 }
 div#image-blog {
-    background: url("/wp-content/themes/BereaCollege/images/admissions/lifeinthebubble.png") no-repeat scroll 0 0 transparent;
+    background: url("/wp-content/themes/BereaCollege/images/connect/lifeinthebubble.png") no-repeat scroll 0 0 transparent;
     height: 37px;
     margin-left: 35px;
     margin-top: 155px;
@@ -254,6 +254,25 @@ div#image-twitter:hover {
 div#image-blog:hover {
     background-position: 0 -36px;
 }
+
+div#nav-postit {
+	width: 208px;
+	height: 86px;
+	background: url('/wp-content/themes/BereaCollege/images/post_it_nav/post_it_admissions.png') no-repeat;
+	padding-top: 120px;
+	margin-bottom:10px;
+}
+
+div#nav-postit a { border: none; }
+
+div#counselors-button { width: 170px; height: 35px; background: url('/wp-content/themes/BereaCollege/images/post_it_nav/post_it_admissions_counselors_button.png') no-repeat; margin-top: -68px; margin-left: 20px; }
+div#counselors-button:hover { background-position: 0 -36px; }
+
+div#parents-button { width: 64px; height: 31px; background: url('/wp-content/themes/BereaCollege/images/post_it_nav/post_it_admissions_parents_button.png') no-repeat; margin-top: 12px; margin-left: 20px; }
+div#parents-button:hover { background-position: 0 -30px; }
+
+div#students-button { width: 155px; height: 43px; background: url('/wp-content/themes/BereaCollege/images/post_it_nav/post_it_admissions_students_button.png') no-repeat; margin-top: 4px; margin-left: 20px; }
+div#students-button:hover { background-position: 0 -39px; }
 
 
 div#vip-box {
