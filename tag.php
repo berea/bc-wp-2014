@@ -7,11 +7,14 @@
  * @since Starkers 3.0
  */
 
-get_header(); ?>
+get_header();
 
-				<h1><?php
-					printf( __( 'Tag Archives: %s', 'twentyten' ), '' . single_tag_title( '', false ) . '' );
-				?></h1>
+?>
+
+	<h1><?php
+		printf( __( 'Tag Archives: %s', 'twentyten' ),
+						'' . single_tag_title( '', false ) . '' );
+	?></h1>
 
 <?php
 /* Run the loop for the tag archive to output the posts
@@ -19,7 +22,8 @@ get_header(); ?>
  * called loop-tag.php and that will be used instead.
  */
  get_template_part( 'loop', 'tag' );
-?>
 
-<?php get_sidebar(); ?>
-<?php get_footer(); ?>
+get_sidebar();
+get_footer();
+
+?>
