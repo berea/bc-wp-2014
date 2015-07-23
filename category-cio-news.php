@@ -51,9 +51,9 @@ get_header(); ?>
 				 <?php endif; // end Contact Info widget area ?>
 		 	</div>
 
-		 <div style="clear:both"></div>
+		 <div class="clearboth"></div>
 		</div>
-	<div style="clear:both"></div>
+	<div class="clearboth"></div>
 	</div>
 </div>
 <?php get_footer(); ?>

@@ -6,6 +6,21 @@ Author: Charlie C Campbell, Jim McWhorter, Cary Hazelwood
 Author URI: http://www.berea.edu
 */
 
+/*
+
+	Updated by Mark Ross on 7-23-15 to add a few classes which
+	were found throughout many of the source codes.  They will
+	be added to the block below or throughout the appropriate
+	files within the CSS folders.
+
+*/
+
+.clearboth {
+	clear: both;
+}
+
+/*************************************************/
+
 .clearfix:after {
 	visibility: hidden;
 	display: block;

@@ -44,12 +44,11 @@ get_header(); ?>
 			 <?php endif;
 			// end Contact Info widget area ?>
 			</div>
-
-		<!-- NOOOOOOOOOOOOOOOOO!!!! -->
-		<div style="clear:both"></div>
+			
+		<div class="clearboth"></div>
 		</div>
-	<!-- NOOOOOOOOOOOOOOOOO!!!! -->
-	<div style="clear:both"></div>
+
+	<div class="clearboth"></div>
 	</div>
 
 </div>

@@ -26,9 +26,9 @@ get_header(); ?>
         <li><a href="/a-z-index/" title="Berea College A-Z Index">A-Z Index</a></li>
       </ul>
       <p></p>
-      <div style="clear:both"></div>
+      <div class="clearboth"></div>
     </div>
-    <div style="clear:both"></div>
+    <div class="clearboth"></div>
   </div>
 </div>
 

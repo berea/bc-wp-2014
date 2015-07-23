@@ -73,10 +73,10 @@
 				</div>
 	  	</div>
 		</div>
-		<div style="clear:both"></div>
+		<div class="clearboth"></div>
 	</div>
 
 	<div id="hdrnavbar">
 		<div id="hdrnav"></div>
-		<div style="clear:both"></div>
+		<div class="clearboth"></div>
 	</div>
