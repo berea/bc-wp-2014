@@ -55,7 +55,7 @@
                 </div>
             <div id="hdrsearch">
                     <div class="search-box">
-                        <form action="http://search.berea.edu/search" method="get" name="gs" id="gs">
+                        <form action="https://search.berea.edu/search" method="get" name="gs" id="gs">
                             <input type="text" size="15" class="search-field"
                                 name="q" id="s" value="Search Berea College Web Site"
                                 onfocus="if(this.value == 'Search Berea College Web Site') {this.value = '';}"

@@ -14,7 +14,8 @@
 
 <!-- Scripts -->
 <script type="text/javascript" src="/scripts/email_link.js"></script>
-<?php if ( is_singular() && get_option( 'thread_comments' ) )
+<?php
+if ( is_singular() && get_option( 'thread_comments' ) )
         wp_enqueue_script( 'comment-reply' ); wp_head();
         ?>
 <!-- Scripts -->
@@ -49,7 +50,7 @@
             <div id="linkcol3"><a href="/a-z-index">A-Z INDEX</a></div>
             <div id="hdrsearch">
                     <div class="search-box">
-                        <form action="http://search.berea.edu/search" method="get" name="gs" id="gs">
+                        <form action="https://search.berea.edu/search" method="get" name="gs" id="gs">
                             <input type="text" size="15" class="search-field"
                                 name="q" id="s" value="Search Berea College Web Site"
                                 onfocus="if(this.value == 'Search Berea College Web Site') {this.value = '';}"
