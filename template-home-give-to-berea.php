@@ -14,7 +14,7 @@ get_header('no-print-styles'); ?>
             <li><a href="/give-to-berea/a-worthy-investment/">A Worthy Investment</a></li>
             <li><a href="/give-to-berea/contact-us/" class="lastitem">Contact Us</a></li>
         </ul>
-        <div style="clear:both"></div>
+        <div class="clearboth"></div>
     </div>
     <div id="middle1col">
         <?php

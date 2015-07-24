@@ -50,7 +50,7 @@
         </div>
         <div id="ftrcol5">
             <p class="heading">Distinctly Berean</p>
-            <div style="margin-top:-6px;">
+            <div class="margin-top-6px">
                 <a href="http://www.boonetavernhotel.com">
                     <img src="/wp-content/themes/BereaCollege/images/footer/boonetavern165x59.png" alt="Historic Boone Tavern Hotel and Restaurant of Berea College" width="165" height="59" />
                 </a>
@@ -66,7 +66,7 @@
                 </a>
             </div>
         </div>
-        <div style="clear:both"></div>
+        <div class="clearboth"></div>
     </div>
     <div id="fineprint">
         <ul><li class="first"><a href="/legal-information/copyright-policy/">&copy;2014 Berea College</a></li>

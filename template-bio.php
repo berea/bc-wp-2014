@@ -13,7 +13,7 @@ get_header(); ?>
         <div id="col2">
             <div id="col2col1">
                 <div id="content">
-                    <div style="float:right;"><?php
+                    <div class="floatright;"><?php
                     if (has_post_thumbnail()) {
                         the_post_thumbnail( array(300,300) );  // Other resolutions
                     } ?>

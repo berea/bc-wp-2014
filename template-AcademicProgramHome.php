@@ -15,7 +15,7 @@ get_header(); ?>
         <div id="content">
           <?php
                 if (has_post_thumbnail()) {
-              // Other resolutions
+                    // Other resolutions
                     the_post_thumbnail( array(515,200) );
                 }
 

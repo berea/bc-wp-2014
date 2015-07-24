@@ -30,7 +30,7 @@ get_header(); ?>
                                     <li class="datetime"><?php twentyten_posted_on(); ?></li>
                                     <li><?php the_content(); ?>
 
-                                        <div style="clear:both"></div>
+                                        <div class="clearboth"></div>
 
 
                                         <?php if ( get_the_author_meta( 'description' ) ) :
@@ -38,7 +38,7 @@ get_header(); ?>
                                             //show a bio on their entries
                                         endif; ?>
 
-                                        <p style="color:red;font-size:14px;margin:10px;">
+                                        <p id="categoryparagraph">
                                             <?php edit_post_link( __( 'Edit This Page', 'twentyten' ), '', '' ); ?>
                                         </p>
 

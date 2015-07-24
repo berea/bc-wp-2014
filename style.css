@@ -19,6 +19,44 @@ Author URI: http://www.berea.edu
     clear: both;
 }
 
+.paddingleft {
+    padding-left: 8px;
+}
+
+.margin-top-6px {
+    margin-top: -6px;
+}
+
+.padding-top-15px {
+    padding-top: 15px;
+}
+
+.floatright {
+    float: right;
+}
+
+#categoryparagraph {
+    color:red;
+    font-size: 14px;
+    margin: 10px;
+}
+
+#loop-homepage-dept-3-col-post {
+    padding:5px;
+    background-color:#E4E4E4;
+    border:1px dashed #ccc;
+}
+
+#loop-homepage-dept-3-line-139 {
+    color: #c75b12;
+    padding-bottom:15px;
+}
+
+#admissions-margins-line-38 {
+    margin-left:-232px;
+    margin-top:-45px;
+}
+
 /*************************************************/
 
 .clearfix:after {

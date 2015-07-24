@@ -137,7 +137,7 @@ while ( have_posts() ) : the_post();
         </a></h2>
 
         <!-- NOOOOOOOOOOOOOOOOOOOOOOOO!!!!!!!  -->
-        <div style="color: #c75b12; padding-bottom:15px;">
+        <div id="loop-homepage-dept-3-line-139">
             <?php the_time('F jS, Y') ?> by <?php the_author_posts_link() ?>
         </div>
 
@@ -155,15 +155,14 @@ while ( have_posts() ) : the_post();
 
         ?>
         <!-- NOOOOOOOOOOOOOOOOOOOOOOOO!!!!!!!  -->
-        <div style="padding:5px; background-color:#E4E4E4; border:1px dashed #ccc;">
+        <div id="loop-homepage-dept-3-col-post">
             <?php
             if ( count( get_the_category() ) ) :
                 printf( __( 'Posted in %2$s', 'twentyten' ),
                             'entry-utility-prep entry-utility-prep-cat-links',
                             get_the_category_list( ', ' ) ); ?>
 
-                <!-- NOOOOOOOOOOOOOOOOOOOOOOOO!!!!!!!  -->
-                <span style="padding-left:8px;">|<span style="padding-left:8px;">
+                <span class="paddingleft">|<span class="paddingleft">
 
             <?php
             endif;
@@ -193,7 +192,7 @@ endwhile; // End the loop. Whew.
 /* Display navigation to next/previous pages when applicable */
 ?>
 <!-- NOOOOOOOOOOOOOOOOOOOOOOOO!!!!!!!  -->
-<div style="padding-top:15px;">
+<div class="padding-top-15px">
 <?php
 if (  $wp_query->max_num_pages > 1 ) :
     next_posts_link( __( '&larr; Older posts', 'twentyten' ) );
