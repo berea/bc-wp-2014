@@ -3,80 +3,80 @@
 /* All modifications to this file must be approved by Cary Hazelwood */
 
 .btn1 a.lnk {
-	display: block;
-	width: 180px;
-	border: 1px solid #ccc;
-	text-decoration: none;
-	background-image: url(../images/buttons/btn1-arrow-66B1EA.gif);	
-	background-repeat: no-repeat;
-	background-position: 6px 50%; 
-	background-color: #fff;
-	font-family:Arial, Helvetica, sans-serif;
-	font-size:12px;
+    display: block;
+    width: 180px;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    background-image: url(../images/buttons/btn1-arrow-66B1EA.gif);
+    background-repeat: no-repeat;
+    background-position: 6px 50%;
+    background-color: #fff;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
 }
 
 .btn1 a.lnk:hover {
-	text-decoration: none;
-	background-color: #fff !important;	
+    text-decoration: none;
+    background-color: #fff !important;
 }
 
 .btn1 .lnk span {
-	display: block;
-	margin-left: 19px;
-	border-left: 1px solid #ccc;
-	padding: 2px;
-	padding-left: 4px;
-	color: #FFFFFF;
-	background-color: #016BA5;
-	font-weight: bold;
+    display: block;
+    margin-left: 19px;
+    border-left: 1px solid #ccc;
+    padding: 2px;
+    padding-left: 4px;
+    color: #FFFFFF;
+    background-color: #016BA5;
+    font-weight: bold;
 }
 .btn1 a.lnk:hover span {
-	background-color: #FEF5E2;
-	text-decoration: none;
-	color: #016BA5;
+    background-color: #FEF5E2;
+    text-decoration: none;
+    color: #016BA5;
 }
 
 .activebutton {
-	list-style-type:none;
-	margin:0;
-	padding:0;
+    list-style-type:none;
+    margin:0;
+    padding:0;
 }
 .activebutton li {
-	margin:0;
-	padding:0;
+    margin:0;
+    padding:0;
 }
 
 .activebutton li a {
-	display: block;
-	border: 1px solid #ccc;
-	text-decoration: none;
-	background-image: url(../images/buttons/btn1-arrow-66B1EA.gif);	
-	background-repeat: no-repeat;
-	background-position: 6px 50%; 
-	background-color: #fff;
-	font-family:Arial, Helvetica, sans-serif;
-	font-size:12px;
+    display: block;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    background-image: url(../images/buttons/btn1-arrow-66B1EA.gif);
+    background-repeat: no-repeat;
+    background-position: 6px 50%;
+    background-color: #fff;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
 }
 
 .activebutton li a:hover {
-	text-decoration: none;
-	background-color: #fff !important;	
+    text-decoration: none;
+    background-color: #fff !important;
 }
 
 .activebutton li a span {
-	display: block;
-	margin-left: 19px;
-	border-left: 1px solid #ccc;
-	padding: 2px;
-	padding-left: 4px;
-	color: #FFFFFF;
-	background-color: #016BA5;
-	font-weight: bold;
+    display: block;
+    margin-left: 19px;
+    border-left: 1px solid #ccc;
+    padding: 2px;
+    padding-left: 4px;
+    color: #FFFFFF;
+    background-color: #016BA5;
+    font-weight: bold;
 }
 .activebutton li a:hover span {
-	background-color: #FEF5E2;
-	text-decoration: none;
-	color: #016BA5;
+    background-color: #FEF5E2;
+    text-decoration: none;
+    color: #016BA5;
 }
 
 #content .button img, #content .button a:link, #content .button a:visited, #content .button a:active {border:none; background:none;}

@@ -6,23 +6,23 @@
 
 .ppldvdr {margin:0 0 20px 0; padding:0;}
 .pplcol1 {
-	float:left;
-	width:100px;
+    float:left;
+    width:100px;
 }
 .pplcol1 img {border:1px solid #006A8B;}
 .pplcol2 {
-	float:right;
-	width:415px;
-	line-height:normal;	
+    float:right;
+    width:415px;
+    line-height:normal;
 }
 .pplcol2 h3 {
-	margin:0 0 5px 0;
-	line-height:normal;
-	padding:0;	
+    margin:0 0 5px 0;
+    line-height:normal;
+    padding:0;
 }
 .pplcol2 h4 {
-	margin:0 0 5px 0;
-	padding:0;
+    margin:0 0 5px 0;
+    padding:0;
 }
 .pplname {margin:0;padding:0;}
 #ppllist {margin:0;padding:0;}

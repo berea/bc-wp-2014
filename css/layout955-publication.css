@@ -10,19 +10,19 @@
 #pubdisclaimer .col2 {width:300px; float:right;}
 
 blockquote {
-	background-color: #E5E5E5;
-	margin: 20px;
-	padding: 20px;
-	border: 1px dotted #999;
-	border-width: 1px 0;
+    background-color: #E5E5E5;
+    margin: 20px;
+    padding: 20px;
+    border: 1px dotted #999;
+    border-width: 1px 0;
 }
 .note {
-	background:url(../images/typography/notev3.png) no-repeat 10px 20px;
-	background-color: #ECF1F4;
-	margin: 20px;
-	padding: 20px 20px 20px 60px;
-	border: 1px dotted #999;
-	border-width: 1px 0;
+    background:url(../images/typography/notev3.png) no-repeat 10px 20px;
+    background-color: #ECF1F4;
+    margin: 20px;
+    padding: 20px 20px 20px 60px;
+    border: 1px dotted #999;
+    border-width: 1px 0;
 }
 #mnphoto {width:514px;margin:0;padding:0;}
 
@@ -32,36 +32,36 @@ padding:4px;
 background-color:#E4E4E4
 }
 #titlebar {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 12px;
-	font-weight: bold;
-	color: #000000;
-	background-color: #D3D8E4;
-	padding: 3px 4px 3px 4px;
-	margin-bottom: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #000000;
+    background-color: #D3D8E4;
+    padding: 3px 4px 3px 4px;
+    margin-bottom: 4px;
 }
 
 /* Catalog Course Listings */
 
 .clisthdr {
-	padding: 3px 0;
+    padding: 3px 0;
 }
 .clisthdrLC {
-	width:150px;
-	float:left;
+    width:150px;
+    float:left;
 }
 .clisthdrRC {
-	width:365px;
-	float:right;
+    width:365px;
+    float:right;
 }
 .clistdesc {
-	padding: 3px 0;
-	width:514px;
-	margin-bottom:12px;
+    padding: 3px 0;
+    width:514px;
+    margin-bottom:12px;
 }
 .clistcredits {
-	padding: 3px 5px 3px 5px;
-	width:514px;
-	margin-bottom:12px;
-	text-align:right;
+    padding: 3px 5px 3px 5px;
+    width:514px;
+    margin-bottom:12px;
+    text-align:right;
 }

@@ -3,7 +3,7 @@
 
 /*
     anythingSlider v1.0
-    
+
     By Chris Coyier: http://css-tricks.com
     with major improvements by Doug Neiner: http://pixelgraphics.us/
     based on work by Remy Sharp: http://jqueryfordesigners.com/
@@ -24,34 +24,34 @@
 
 #thumbNav                               { position: relative; top: 235px; text-align:right; padding-right:100px;}
 #thumbNav a                             {
-	color:#718D9D;
-	font: 11px/18px Arial, Helvetica, sans-serif;
-	display: inline-block;
-	padding: 1px 8px 3px 8px;
-	height: 15px;
-	margin: 0 5px 0 0;
-	text-align: center;
-	-moz-border-radius-bottomleft: 5px;
-	-moz-border-radius-bottomright: 5px;
-	-webkit-border-bottom-right-radius: 5px;
-	-webkit-border-bottom-left-radius: 5px;
-	text-decoration:none;
-	background:#e5eef2 url(../images/anythingslider/cellshade.png) repeat-x;
-	border-left:1px #b9ced9 solid;
-	border-bottom:1px #b9ced9 solid;
-	border-right:1px #b9ced9 solid;
-	border-top:none;
+    color:#718D9D;
+    font: 11px/18px Arial, Helvetica, sans-serif;
+    display: inline-block;
+    padding: 1px 8px 3px 8px;
+    height: 15px;
+    margin: 0 5px 0 0;
+    text-align: center;
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    text-decoration:none;
+    background:#e5eef2 url(../images/anythingslider/cellshade.png) repeat-x;
+    border-left:1px #b9ced9 solid;
+    border-bottom:1px #b9ced9 solid;
+    border-right:1px #b9ced9 solid;
+    border-top:none;
 }
 #thumbNav a:hover                       { background-image: none; color:#FFFFFF; background:#005a8b;}
 #thumbNav a.cur                         {
-	color:#005a8b;
-	background: #b7d7e8;
+    color:#005a8b;
+    background: #b7d7e8;
 }
 
-#start-stop                             { background: #b7d7e8; background-image:none; background-repeat: repeat-x; color:#005a8b; padding: 2px 8px; width: 60px; text-align: center; position: absolute; right: 20px; top: 235px; -moz-border-radius-bottomleft: 5px; -moz-border-radius-bottomright: 5px; -webkit-border-bottom-right-radius: 5px; -webkit-border-bottom-left-radius: 5px; text-decoration:none;	border-left:1px #b9ced9 solid;
-	border-bottom:1px #b9ced9 solid;
-	border-right:1px #b9ced9 solid;	
-	border-top:none;}
+#start-stop                             { background: #b7d7e8; background-image:none; background-repeat: repeat-x; color:#005a8b; padding: 2px 8px; width: 60px; text-align: center; position: absolute; right: 20px; top: 235px; -moz-border-radius-bottomleft: 5px; -moz-border-radius-bottomright: 5px; -webkit-border-bottom-right-radius: 5px; -webkit-border-bottom-left-radius: 5px; text-decoration:none;    border-left:1px #b9ced9 solid;
+    border-bottom:1px #b9ced9 solid;
+    border-right:1px #b9ced9 solid;
+    border-top:none;}
 #start-stop.playing                     { background: #e5eef2 url(../images/anythingslider/cellshade.png); text-decoration:none; color:#718D9D;}
 #start-stop:hover                       { background-image: none; text-decoration:none; color:#FFFFFF; background:#005a8b;}
 
@@ -61,7 +61,3 @@
 */
 .anythingSlider .wrapper ul ul          { position: static; margin: 0; background: none; overflow: visible; width: auto; border: 0; }
 .anythingSlider .wrapper ul ul li       { float: none; height: auto; width: auto; background: none; }
-
-
-
-

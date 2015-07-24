@@ -7,10 +7,10 @@
 #status strong {font-size: 16px;}
 #status ul {margin:0;padding:0;list-style: none;}
 #status ul li {
-	margin:0;
-	padding:5px 0;
-	border-bottom:dotted 1px;
-	border-bottom-color: #4D7A8E;
+    margin:0;
+    padding:5px 0;
+    border-bottom:dotted 1px;
+    border-bottom-color: #4D7A8E;
 }
 
 #status ul li.up

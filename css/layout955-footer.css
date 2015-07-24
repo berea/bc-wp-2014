@@ -4,31 +4,31 @@
 /* revamped for Skype plug-in that alters phone numbers on pages */
 
 #bcfooterbar {
-	margin:0;
-	width:100%;
-	background-color:#005A8B;
-	color:#E9F0F8;
-	font-family:Verdana, Arial, Helvetica, sans-serif;
-	font-size:11px;
-	line-height:12px;
-	background-image: url(../images/footer/bg_bcdeptfooter024f79.jpg);
-	background-repeat: repeat-x;
-	background-position: top;
+    margin:0;
+    width:100%;
+    background-color:#005A8B;
+    color:#E9F0F8;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:11px;
+    line-height:12px;
+    background-image: url(../images/footer/bg_bcdeptfooter024f79.jpg);
+    background-repeat: repeat-x;
+    background-position: top;
 }
 #bcfooterbar p, #bcfooterbar pre, #bcfooterbar ol, #bcfooterbar ul, #bcfooterbar dl {
-	margin:0;
-	width:100%;
-	font-family:Verdana, Arial, Helvetica, sans-serif;
-	font-size:11px;
-	line-height:12px;
+    margin:0;
+    width:100%;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:11px;
+    line-height:12px;
 }
 #bcfooter {
-	margin:0 auto;
-	width:955px;
-	color:#E9F0F8;
-	font-family:Verdana, Arial, Helvetica, sans-serif;
-	font-size:11px;
-	line-height:12px;
+    margin:0 auto;
+    width:955px;
+    color:#E9F0F8;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:11px;
+    line-height:12px;
 }
 
 #bcfooter a:link {color:#FFFFFF; text-decoration:none; }
@@ -37,120 +37,120 @@
 #bcfooter a:hover {color:#C9631C; text-decoration:none; border-bottom:dotted 1px #C9631C;}
 
 #bcfooter p {
-	margin:6px 0;
-	color:#E9F0F8;	
+    margin:6px 0;
+    color:#E9F0F8;
 }
 #bcfooter p.heading {
-	font-weight:bold;
-	font-size:14px;
-	margin-bottom:10px;
-	color:#E68039;
-	font-family:Arial, Helvetica, sans-serif;
-	text-transform: uppercase;
-	letter-spacing: 1px;
+    font-weight:bold;
+    font-size:14px;
+    margin-bottom:10px;
+    color:#E68039;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 #clearfooter {
-	width:100%;
-	height:0px;
-	clear:both
+    width:100%;
+    height:0px;
+    clear:both
 } /* to clear footer */
 
 #ftrcol1 {
-	margin-left:25px;
-	float:left;
-	line-height: 16px;
-	width:135px;
-	overflow:hidden;
+    margin-left:25px;
+    float:left;
+    line-height: 16px;
+    width:135px;
+    overflow:hidden;
 }
 #ftrcol1 p {
-	margin:2px 0;
-	color:#D7EBF4;
-	line-height: normal;
-	font-size: 12px !important;
+    margin:2px 0;
+    color:#D7EBF4;
+    line-height: normal;
+    font-size: 12px !important;
 }
 #ftrcol1 a:link, #ftrcol1 a:visited, #ftrcol1 a:active {
-	color: #EECB6B;
-	text-decoration: none;
-	border-bottom:#EECB6B;
-	border-width: 0px 0px 1px 0px;
-	border-style: none none dotted none;	
+    color: #EECB6B;
+    text-decoration: none;
+    border-bottom:#EECB6B;
+    border-width: 0px 0px 1px 0px;
+    border-style: none none dotted none;
 }
 #ftrcol1 a:hover {
-	color:#FFFFFF;
-	border-bottom:#FFFFFF;
-	border-width: 0px 0px 1px 0px;
-	border-style: none none dotted none;
+    color:#FFFFFF;
+    border-bottom:#FFFFFF;
+    border-width: 0px 0px 1px 0px;
+    border-style: none none dotted none;
 }
 #ftrcol2 {
-	margin-left:45px;
-	float:left;
+    margin-left:45px;
+    float:left;
 }
 #ftrcol3 {
-	margin-left:45px;
-	float:left;
+    margin-left:45px;
+    float:left;
 }
 #ftrcol4 {
-	margin-left:45px;
-	float:left;
+    margin-left:45px;
+    float:left;
 }
 #ftrcol4 img {
-	padding-right:5px;
-	border:none;
+    padding-right:5px;
+    border:none;
 }
 #ftrcol4 a:link, #ftrcol4 a:visited, #ftrcol4 a:active, #ftrcol4 a:hover {
-	text-decoration: none;
-	border-width: 0px;
-	border-style: none;	
+    text-decoration: none;
+    border-width: 0px;
+    border-style: none;
 }
 #ftrcol5 {
-	margin-left:50px;
-	float:left;
+    margin-left:50px;
+    float:left;
 }
 #ftrcol5 img {
-	padding-bottom:5px;
-	border:none;
+    padding-bottom:5px;
+    border:none;
 }
 #ftrcol5 a:link, #ftrcol5 a:visited, #ftrcol5 a:active, #ftrcol5 a:hover {
-	text-decoration: none;
-	border-width: 0px;
-	border-style: none;	
+    text-decoration: none;
+    border-width: 0px;
+    border-style: none;
 }
 #ftrlinks {
-	padding:20px 0;
+    padding:20px 0;
 }
 #footerext {
-	margin:0 auto;
-	width:955px;
-	color:#005A8B;
-	font-family:Verdana, Arial, Helvetica, sans-serif;
-	font-size:11px;
-	line-height:12px;
+    margin:0 auto;
+    width:955px;
+    color:#005A8B;
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    font-size:11px;
+    line-height:12px;
 }
 #footerextlinks {
-	padding:10px 20px;
+    padding:10px 20px;
 }
 
 #footerextlinks .separator {
-	padding:0 10px;
-	border-right:dotted 1px #005A8B;
+    padding:0 10px;
+    border-right:dotted 1px #005A8B;
 }
 #footerextlinks .lastseparator {
-	padding:0 10px;
-	border:none;
+    padding:0 10px;
+    border:none;
 }
 #ftrextcol1 {
-	margin-left:0px;
-	line-height: 16px;	
-	float:left;
+    margin-left:0px;
+    line-height: 16px;
+    float:left;
 }
 #ftrextcol2 {
-	margin-left:410px;
-	float:left;
-	line-height: 16px;
-	color:#005A8B;
+    margin-left:410px;
+    float:left;
+    line-height: 16px;
+    color:#005A8B;
 }
 .icon {
-	vertical-align:middle;
+    vertical-align:middle;
 }
 #footerextlinks a:link {color:#005A8B; text-decoration:none; border-bottom:dotted 1px #005A8B;}
 #footerextlinks a:active {color:#005A8B; text-decoration:none; border-bottom:dotted 1px #005A8B;}
@@ -158,20 +158,20 @@
 #footerextlinks a:hover {color:#005A8B; text-decoration:none; border-bottom:dotted 1px #005A8B; background-color:#E5E5E5;}
 
 #copyright {
-	padding:10px 20px 30px 20px;
-	text-align: center;
+    padding:10px 20px 30px 20px;
+    text-align: center;
 }
 #fineprint {
-	padding:10px 20px 30px 20px;
-	text-align: center;
+    padding:10px 20px 30px 20px;
+    text-align: center;
 }
 #fineprint ul {margin:0; padding:0 0 10px 0;}
 #fineprint ul li {
-	margin:0;
-	padding:0 10px;
-	display:inline;
-	border-left:1px dotted;
-	border-left-color: #008BD7;
+    margin:0;
+    padding:0 10px;
+    display:inline;
+    border-left:1px dotted;
+    border-left-color: #008BD7;
 }
 #fineprint ul li.first {padding:0 10px 0 0; border:none;}
 #fineprint ul li.alone {padding:0; border:none;}

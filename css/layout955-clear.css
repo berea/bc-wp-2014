@@ -3,8 +3,8 @@
 /* All modifications to this file must be approved by Cary Hazelwood */
 
 fieldset, form, label, legend {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
 }

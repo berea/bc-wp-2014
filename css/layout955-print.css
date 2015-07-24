@@ -2,14 +2,14 @@
 /* Updated May 24, 2011 by Cary Hazelwood */
 /* All modifications to this file must be approved by Cary Hazelwood */
 
-body { 
-	width: 7in;
-	color: #000;
-	font: 12pt/20pt "Times New Roman", Times, serif;
+body {
+    width: 7in;
+    color: #000;
+    font: 12pt/20pt "Times New Roman", Times, serif;
 }
-a { 
-  text-decoration : underline; 
-  color : #0000ff; 
+a {
+  text-decoration : underline;
+  color : #0000ff;
 }
 #sectiontitle, h1, h2, h3 {
    color: #666;
@@ -35,17 +35,17 @@ h3 {
    padding: 15px 5px 5px 0;
 }
 p {
-   margin-top: 10px;   
+   margin-top: 10px;
 }
-#hdrbar, #hdr, #logo, #hdrlinksrch, #hdrbarnav, #header, #col1, #col2col2, #nlncol1col2, #ftrlinks, #copyright { 
-  display : none; 
+#hdrbar, #hdr, #logo, #hdrlinksrch, #hdrbarnav, #header, #col1, #col2col2, #nlncol1col2, #ftrlinks, #copyright {
+  display : none;
 }
 #col2 {
-	float:none;
+    float:none;
 }
 
 #col2col1 {
-	float:none;
+    float:none;
 }
 #footer, #footerbar {margin:0;padding:0;}
 #printcopyright {border-top: 1px solid #999; margin-top:40px; padding-top:10px; }
@@ -54,10 +54,10 @@ p {
 /* Photo / Image Styles */
 
 .imagecaption {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 10px;
-	text-align: left;
-	line-height: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    text-align: left;
+    line-height: normal;
 }
 .photo_right {
   float:right;
@@ -65,20 +65,20 @@ p {
   margin-top: 5px;
   margin-left:15px;
   margin-bottom:5px;
-} 
+}
 .photo_left {
   float:left;
   border:solid 1px #005A8B;
   margin-top: 5px;
   margin-right:15px;
   margin-bottom:5px;
-} 
+}
 .photo_right_nobrdr {
   float:right;
   margin-top: 5px;
   margin-left:15px;
   margin-bottom:5px;
-} 
+}
 .photo_left_nobrdr {
   float:left;
   margin-top: 5px;
@@ -89,10 +89,10 @@ p {
   border:solid 1px #005A8B;
 }
 .photo_caption {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	text-align: left;
-	line-height: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    text-align: left;
+    line-height: normal;
 }
 .callout {
   clear:both;
@@ -106,9 +106,9 @@ p {
   font-weight: normal;
   line-height:26px;
   border-bottom:1px dotted #005a8b;
-  border-top:1px dotted #005a8b; 
+  border-top:1px dotted #005a8b;
   margin-bottom:10px;
-  margin-top:10px;  
+  margin-top:10px;
 }
 
 

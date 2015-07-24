@@ -6,35 +6,35 @@
 /* CSS Document */
 
 #pagination {
-	margin:0;
-	padding:0;
+    margin:0;
+    padding:0;
 }
 #pagination a{
-	text-decoration:none;
-	margin:2px;
-	width:15px;
-	display:inline-block;
-	text-align:center;
+    text-decoration:none;
+    margin:2px;
+    width:15px;
+    display:inline-block;
+    text-align:center;
 }
 #pagination a.year {width:45px;}
 #pagination .page{
-	color:#1f6c96;
-	width:25px;
-	float:left;
+    color:#1f6c96;
+    width:25px;
+    float:left;
 }
 #pagination .pageyear {width:55px;}
 #pagination .page a{
-	border:#b4d9e2 solid 1px;
+    border:#b4d9e2 solid 1px;
 }
 #pagination .page a.activeSlide{
-	border:1px #b4d9e2 solid;
-	background:#e1f3ff;
+    border:1px #b4d9e2 solid;
+    background:#e1f3ff;
 }
 #pagination .page a:hover{
-	color:#FFFFFF;
-	background:#1f6c96;
+    color:#FFFFFF;
+    background:#1f6c96;
 }
 #pagination a:focus{
-	outline:none;
-	color:#093851;
+    outline:none;
+    color:#093851;
 }

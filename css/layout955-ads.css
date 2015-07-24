@@ -37,7 +37,7 @@
 .box-595px {width:595px; background-image:url(../images/backgrounds/bg-mask-box-595-top.png); background-repeat:no-repeat; background-position:top; margin-bottom:20px;}
 .box-595px-content {padding:10px 15px 0 15px;}
 .box-595px-content ul {padding:0; margin:0;}
-.box-595px-content li {padding:0; margin:0; list-style-type:none; clear:both; margin:0;	padding:10px 15px;}
+.box-595px-content li {padding:0; margin:0; list-style-type:none; clear:both; margin:0;    padding:10px 15px;}
 .box-595px h2 {margin:0; padding:10px 0 0 0; text-align: center;}
 .box-595px p {clear:both; margin:0 0 10px 0; padding:0 0 10px 0;}
 .box-595px-bottom {clear:both; width:595px; height:20px; background-image:url(../images/backgrounds/bg-mask-box-595-bottom.png); background-repeat:no-repeat; background-position:bottom;}
@@ -57,10 +57,10 @@
 .adbox400x165 .lcol {width:200px; float:left;}
 .adbox400x165 .rcol {width:200px; float:right;}
 .adbox400x165 .ftr-content {width:410px; height:125px; line-height: 18px;}
-.adbox400x165 .photo-left {border:none;	float:left;	margin:0 15px 0 0; padding:0; height:125px; width:160px;}
+.adbox400x165 .photo-left {border:none;    float:left;    margin:0 15px 0 0; padding:0; height:125px; width:160px;}
 
 /* Box Width 285px */
-.box-285px {width:285px; background-image:url(../images/backgrounds/bg-mask-box-285-top.png); background-repeat:no-repeat; background-position:top;	margin-bottom:20px;}
+.box-285px {width:285px; background-image:url(../images/backgrounds/bg-mask-box-285-top.png); background-repeat:no-repeat; background-position:top;    margin-bottom:20px;}
 .box-285px-content {padding:10px 15px 0 15px;}
 .box-285px-content ul {padding:0; margin:0;}
 .box-285px-content li {padding:0; margin:0; list-style-type:none; clear:both; margin:0; padding:10px 15px;}
@@ -69,7 +69,7 @@
 .box-285px-bottom {clear:both; width:285px; height:20px; background-image:url(../images/backgrounds/bg-mask-box-285-bottom.png); background-repeat:no-repeat; background-position:bottom;}
 
 /* Box Width 235px */
-.box-235px {width:235px; background-image:url(../images/backgrounds/bg-mask-box-235-top.png); background-repeat:no-repeat; background-position:top;	margin-bottom:20px;}
+.box-235px {width:235px; background-image:url(../images/backgrounds/bg-mask-box-235-top.png); background-repeat:no-repeat; background-position:top;    margin-bottom:20px;}
 .box-235px-content {padding:10px 15px 0 15px;}
 .box-235px-content ul {padding:0; margin:0;}
 .box-235px-content li {padding:0; margin:0; list-style-type:none; clear:both; margin:0; padding:10px 15px;}
@@ -78,7 +78,7 @@
 .box-235px-bottom {clear:both; width:235px; height:20px; background-image:url(../images/backgrounds/bg-mask-box-235-bottom.png); background-repeat:no-repeat; background-position:bottom;}
 
 /* Box Width 200px */
-.box-200px {width:200px; background-image:url(../images/backgrounds/bg-mask-box-200-top.png); background-repeat:no-repeat; background-position:top;	margin-bottom:20px;}
+.box-200px {width:200px; background-image:url(../images/backgrounds/bg-mask-box-200-top.png); background-repeat:no-repeat; background-position:top;    margin-bottom:20px;}
 .box-200px-content {padding:10px 15px 0 15px;}
 .box-200px-content ul {padding:0; margin:0;}
 .box-200px-content li {padding:0; margin:0; list-style-type:none; clear:both; margin:0; padding:10px 15px;}
