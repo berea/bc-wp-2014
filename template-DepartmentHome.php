@@ -6,7 +6,7 @@ get_header(); ?>
 
 <div id="middlepgbg">
     <div id="sectiontitle">
-      <?php bloginfo( $show ); ?>
+        <?php bloginfo( $show ); ?>
     </div>
     <div id="middle">
       <?php get_sidebar(); ?>
@@ -23,10 +23,10 @@ get_header(); ?>
                         the_content();
                         wp_link_pages( array( 'before' => '' . __( 'Pages:', 'twentyten' ), 'after' => '' ) );
                         edit_post_link( __( 'Edit', 'twentyten' ), '', '' );
-                    endwhile; //End of Loop
+                    endwhile;
+                    //End of Loop
                     ?>
                 </div>
-                <!-- NOOOOOO!!! -->
                 <div class="clearboth"></div>
             </div>
             <div id="col2col2">
@@ -67,7 +67,8 @@ get_header(); ?>
                     // Begin Right widget area
                     if ( is_active_sidebar( 'right-sidebar' ) ) :
                         dynamic_sidebar( 'right-sidebar' );
-                    endif;// Right widget area
+                    endif;
+                    // Right widget area
                     ?>
                 </div>
                 <div class="clearboth"></div>

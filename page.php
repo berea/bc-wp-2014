@@ -11,7 +11,6 @@ get_header();
 
     <p><?php bloginfo( $show ); ?></p>
 
-    <!-- NOOOOOOOOOOOOOOOOOO!!! -->
     <div class="clearleft"></div>
       <?php
       wp_nav_menu( array( 'menu' => 'Top Nav Menu',
@@ -24,7 +23,6 @@ get_header();
                           'menu_id' => 'none'
       ) );
       ?>
-    <!-- NOOOOOOOOOOOOOOOOOO!!! -->
     <div class="clearboth"></div>
   </div>
 
@@ -35,7 +33,8 @@ get_header();
         <div id="content">
           <?php
           if (has_post_thumbnail()) {
-            the_post_thumbnail( array(515,200) );  // Other resolutions
+            // Other resolutions
+            the_post_thumbnail( array(515,200) );
           }
 
           if ( have_posts() ) while ( have_posts() ) : the_post();
@@ -57,6 +56,7 @@ get_header();
           ?>
         </div>
       </div>
+
       <div id="col2col2">
         <div id="right-sidebar">
           <?php

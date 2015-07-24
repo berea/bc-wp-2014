@@ -121,9 +121,9 @@ while ( have_posts() ) : the_post();
         endif;
 
         twentyten_posted_on();
-        ?>
-        |
-        <?php
+
+        echo "|";
+
         comments_popup_link( __( 'Leave a comment', 'twentyten' ),
                              __( '1 Comment', 'twentyten' ),
                              __( '% Comments', 'twentyten' )
@@ -156,9 +156,7 @@ while ( have_posts() ) : the_post();
             printf( __( 'Posted in %2$s', 'twentyten' ),
                         'entry-utility-prep entry-utility-prep-cat-links',
                         get_the_category_list( ', ' ) );
-        ?>
-            |
-        <?php
+            echo "|";
         endif;
 
         $tags_list = get_the_tag_list( '', ', ' );
@@ -167,9 +165,7 @@ while ( have_posts() ) : the_post();
             printf( __( 'Tagged %2$s', 'twentyten' ),
                         'entry-utility-prep entry-utility-prep-tag-links',
                         $tags_list );
-            ?>
-            |
-            <?php
+            echo "|";
         endif;
         comments_popup_link( __( 'Leave a comment', 'twentyten' ),
                              __( '1 Comment', 'twentyten' ),

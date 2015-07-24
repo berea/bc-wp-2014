@@ -56,7 +56,6 @@ while ( have_posts() ) : the_post();
             rel="bookmark">
 
             <?php the_title(); ?>
-
         </a></h2>
 
         <?php
@@ -90,7 +89,6 @@ while ( have_posts() ) : the_post();
                 ?>
             </p>
 
-
         <?php
         the_excerpt();
         endif;
@@ -111,7 +109,8 @@ while ( have_posts() ) : the_post();
   /* How to display posts in the asides category */
     elseif ( in_category( _x('asides', 'asides category slug', 'twentyten') ) ) :
 
-        if ( is_archive() || is_search() ) : // Display excerpts for archives and search.
+        // Display excerpts for archives and search.
+        if ( is_archive() || is_search() ) :
             the_excerpt();
         else :
             the_content( __( 'Continue reading &rarr;', 'twentyten' ) );
@@ -122,7 +121,7 @@ while ( have_posts() ) : the_post();
 
         comments_popup_link( __( 'Leave a comment', 'twentyten' ),
                              __( '1 Comment', 'twentyten' ),
-                            __( '% Comments', 'twentyten' )
+                             __( '% Comments', 'twentyten' )
         );
         edit_post_link( __( 'Edit', 'twentyten' ), '| ', '' );
 
@@ -136,7 +135,7 @@ while ( have_posts() ) : the_post();
             <?php the_title(); ?>
         </a></h2>
 
-        <!-- NOOOOOOOOOOOOOOOOOOOOOOOO!!!!!!!  -->
+
         <div id="loop-homepage-dept-3-line-139">
             <?php the_time('F jS, Y') ?> by <?php the_author_posts_link() ?>
         </div>
@@ -154,7 +153,7 @@ while ( have_posts() ) : the_post();
         endif;
 
         ?>
-        <!-- NOOOOOOOOOOOOOOOOOOOOOOOO!!!!!!!  -->
+
         <div id="loop-homepage-dept-3-col-post">
             <?php
             if ( count( get_the_category() ) ) :
@@ -163,7 +162,6 @@ while ( have_posts() ) : the_post();
                             get_the_category_list( ', ' ) ); ?>
 
                 <span class="paddingleft">|<span class="paddingleft">
-
             <?php
             endif;
 
@@ -171,8 +169,8 @@ while ( have_posts() ) : the_post();
 
             if ( $tags_list ):
                 printf( __( 'Tagged %2$s', 'twentyten' ),
-                            'entry-utility-prep entry-utility-prep-tag-links',
-                            $tags_list );
+                        'entry-utility-prep entry-utility-prep-tag-links',
+                        $tags_list );
                 echo "|";
             endif;
 
@@ -191,7 +189,6 @@ endwhile; // End the loop. Whew.
 
 /* Display navigation to next/previous pages when applicable */
 ?>
-<!-- NOOOOOOOOOOOOOOOOOOOOOOOO!!!!!!!  -->
 <div class="padding-top-15px">
 <?php
 if (  $wp_query->max_num_pages > 1 ) :

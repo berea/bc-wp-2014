@@ -58,7 +58,11 @@
                         <input name="btnG" type="submit"  value="" class="search-go" />
                         <input type="hidden" name="sitesearch" value="www.berea.edu" />
                     </form>
-                    <!--
+                    <?php
+                    /*********************************
+
+                    <!-- Placing these in php comments removes the
+                         visibility from the html code. . . Hopefully...
                     <form action="https://search.berea.edu/search" method="get" name="gs" id="gs">
                         <input type="text" size="15" class="search-field"
                             name="q" id="s" value="Search Berea College Web Site"
@@ -74,6 +78,9 @@
                         <input type="hidden" name="oe" value="" />
                     </form>
                     -->
+                    **************************************/
+                    ?>
+
                 </div>
                 </div>
           </div>

@@ -9,7 +9,6 @@
 	<div id="wp-leftcolumn">
 		<ul>
 
-
 			<div id="wp-leftnav">
 
 				<?php
@@ -24,7 +23,7 @@
 			if ( is_active_sidebar( 'related-links' ) ) : ?>
 
 				<div id="related-links">
-                <p class="title">Related Links</p>
+                	<p class="title">Related Links</p>
 					<?php dynamic_sidebar( 'related-links' ); ?>
 				</div>
 
@@ -34,11 +33,9 @@
 			<?php
 			// Begin Contact Info widget area
 			if ( is_active_sidebar( 'contact-info' ) ) : ?>
-
 				<div id="contactinfo">
 					<?php dynamic_sidebar( 'contact-info' ); ?>
 				</div>
-
 			<?php endif;
 			// end Contact Info widget area ?>
 

@@ -22,10 +22,9 @@ get_header(); ?>
                      * called loop-index.php and that will be used instead.
                      */
                      get_template_part( 'loop', 'index' );
-                    ?>
-                    <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
-                        <?php
+                    if ( have_posts() ) while ( have_posts() ) : the_post();
+
                         if ( is_front_page() ) {
                             echo "<h2>";
                                 the_title();
@@ -35,14 +34,13 @@ get_header(); ?>
                                 the_title();
                             echo "</h2>";
                         }
-                        ?>
 
-                        <?php
                         the_content();
                         wp_link_pages( array( 'before' => '' . __( 'Pages:', 'twentyten' ), 'after' => '' ) );
                         edit_post_link( __( 'Edit', 'twentyten' ), '', '' );
-                        ?>
-                    <?php endwhile; ?>
+
+                    endwhile;
+                    ?>
                 </div>
             </div>
 
