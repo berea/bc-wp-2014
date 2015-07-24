@@ -2,7 +2,7 @@
 /**
  * Template Name: Home - Give to Berea
  */
-get_header('no-print-styles'); ?>
+get_header(); ?>
 
 <div id="middlepgbg">
     <div id="sectiontitle"><p><?php bloginfo( $show ); ?></p>

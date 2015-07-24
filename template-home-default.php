@@ -2,7 +2,7 @@
 /**
  * Template Name: Home - Default
  */
-get_header('no-print-styles'); ?>
+get_header(); ?>
 
 <div id="middlepgbg">
     <div id="sectiontitle">
