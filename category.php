@@ -18,7 +18,6 @@ get_header(); ?>
                         <ul>
 
                             <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
-
                                 <h2>
                                     <a href="<?php the_permalink() ?>" rel="bookmark"
                                         title="Link to <?php the_title(); ?>">
@@ -31,7 +30,6 @@ get_header(); ?>
                                     <li><?php the_content(); ?>
 
                                         <div class="clearboth"></div>
-
 
                                         <?php if ( get_the_author_meta( 'description' ) ) :
                                             // If a user has filled out their description,

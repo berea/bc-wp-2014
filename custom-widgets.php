@@ -83,18 +83,18 @@ class BC_Widget_Code extends WP_Widget
     </p>
 
     <textarea class="widefat" rows="16" cols="20" id="<?php echo $this->get_field_id('text'); ?>"
-      name="<?php echo $this->get_field_name('text'); ?>">
-      <?php echo $text; ?>
+        name="<?php echo $this->get_field_name('text'); ?>">
+        <?php echo $text; ?>
     </textarea>
 
     <p>
-      <input id="<?php echo $this->get_field_id('filter'); ?>"
-        name="<?php echo $this->get_field_name('filter'); ?>"
-        type="checkbox" <?php checked(isset($instance['filter']) ? $instance['filter'] : 0); ?> />
-      &nbsp;
-      <label for="<?php echo $this->get_field_id('filter'); ?>">
-        <?php _e('Automatically add paragraphs'); ?>
-      </label>
+        <input id="<?php echo $this->get_field_id('filter'); ?>"
+            name="<?php echo $this->get_field_name('filter'); ?>"
+            type="checkbox" <?php checked(isset($instance['filter']) ? $instance['filter'] : 0); ?> />
+        &nbsp;
+        <label for="<?php echo $this->get_field_id('filter'); ?>">
+            <?php _e('Automatically add paragraphs'); ?>
+        </label>
     </p>
     <?php
   }

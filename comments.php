@@ -44,8 +44,8 @@ endif;?>
     <?php
     // Are there comments to navigate through?
     if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) :
-        previous_comments_link( __( '&larr; Older Comments', 'twentyten' ) );
-        next_comments_link( __( 'Newer Comments &rarr;', 'twentyten' ) );
+         previous_comments_link( __( '&larr; Older Comments', 'twentyten' ) );
+         next_comments_link( __( 'Newer Comments &rarr;', 'twentyten' ) );
     endif; // check for comment navigation
     ?>
 

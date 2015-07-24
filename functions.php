@@ -53,7 +53,8 @@ function add_pingdom()
     })();
     </script>
     <!-- Pingdom END -->
-    <?php }
+<?php
+}
 
     // END Pingdom Code Insertion
 
@@ -119,7 +120,7 @@ if ( ! function_exists( 'twentyten_setup' ) ):
     // This theme uses wp_nav_menu() in one location.
     register_nav_menus( array(
         'primary' => __( 'Primary Navigation', 'twentyten' ),
-        ) );
+    ) );
 
         // This theme allows users to set a custom background
         add_custom_background();
@@ -168,7 +169,8 @@ if ( ! function_exists( 'twentyten_admin_header_style' ) ) :
     *
     * @since Twenty Ten 1.0
     */
-    function twentyten_admin_header_style() {
+    function twentyten_admin_header_style()
+    {
         ?>
         <style type="text/css">
         /* Shows the same border as on front end */
@@ -495,7 +497,8 @@ add_action( 'widgets_init', 'twentyten_widgets_init' );
 *
 * @since Twenty Ten 1.0
 */
-function twentyten_remove_recent_comments_style() {
+function twentyten_remove_recent_comments_style()
+{
     global $wp_widget_factory;
     remove_action( 'wp_head',
     array( $wp_widget_factory->widgets['WP_Widget_Recent_Comments'],

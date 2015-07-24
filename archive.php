@@ -20,21 +20,21 @@ get_header();
      * We reset this later so we can run the loop
      * properly with a call to rewind_posts().
      */
-    if ( have_posts() )
-        the_post();
+if ( have_posts() )
+    the_post();
 ?>
 
 <h1>
     <?php
-        if ( is_day() ) :
-            printf( __( 'Daily Archives: %s', 'twentyten' ), get_the_date() );
-        elseif ( is_month() ) :
-            printf( __( 'Monthly Archives: %s', 'twentyten' ), get_the_date('F Y') );
-        elseif ( is_year() ) :
-            printf( __( 'Yearly Archives: %s', 'twentyten' ), get_the_date('Y') );
-        else :
-            _e( 'Blog Archives', 'twentyten' );
-        endif;
+    if ( is_day() ) :
+        printf( __( 'Daily Archives: %s', 'twentyten' ), get_the_date() );
+    elseif ( is_month() ) :
+        printf( __( 'Monthly Archives: %s', 'twentyten' ), get_the_date('F Y') );
+    elseif ( is_year() ) :
+        printf( __( 'Yearly Archives: %s', 'twentyten' ), get_the_date('Y') );
+    else :
+        _e( 'Blog Archives', 'twentyten' );
+    endif;
     ?>
 </h1>
 
