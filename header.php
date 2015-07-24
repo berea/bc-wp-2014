@@ -7,30 +7,30 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 <head>
-<meta charset="<?php bloginfo( 'charset' ); ?>" />
-<title><?php wp_title(''); ?></title>
-<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <meta charset="<?php bloginfo( 'charset' ); ?>" />
+    <title><?php wp_title(''); ?></title>
+    <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 
-<!-- Scripts -->
-<script type="text/javascript" src="/scripts/email_link.js"></script>
-<?php
-if ( is_singular() && get_option( 'thread_comments' ) )
-        wp_enqueue_script( 'comment-reply' ); wp_head();
-        ?>
-<!-- Scripts -->
+    <!-- Scripts -->
+    <script type="text/javascript" src="/scripts/email_link.js"></script>
+    <?php
+        if ( is_singular() && get_option( 'thread_comments' ) )
+            wp_enqueue_script( 'comment-reply' ); wp_head();
+    ?>
+    <!-- Scripts -->
 
-<!-- stylesheets -->
-<link rel="stylesheet" href="<?php echo bloginfo('template_url'); ?>/style.css" type="text/css" media="screen"/>
-<link rel="stylesheet" href="<?php echo bloginfo('template_url'); ?>/css/layout955-basic.css" type="text/css" media="screen"/>
-<link rel="stylesheet" href="<?php echo bloginfo('template_url'); ?>/css/layout955-homepages.css" type="text/css" media="screen"/>
-<link rel="stylesheet" href="<?php echo bloginfo('template_url'); ?>/css/landing-page-3category-slideshow.css" type="text/css" media="screen"/>
-<link rel="stylesheet" href="<?php echo bloginfo('template_url'); ?>/css/layout955-print.css" type="text/css" media="print" />
-<!-- stylesheets -->
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="<?php echo bloginfo('template_url'); ?>/style.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="<?php echo bloginfo('template_url'); ?>/css/layout955-basic.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="<?php echo bloginfo('template_url'); ?>/css/layout955-homepages.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="<?php echo bloginfo('template_url'); ?>/css/landing-page-3category-slideshow.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="<?php echo bloginfo('template_url'); ?>/css/layout955-print.css" type="text/css" media="print" />
+    <!-- stylesheets -->
 
-<!-- Social Media -->
-<meta property="og:image" content="http://www.berea.edu/wp-content/uploads/2014/06/BCLogoFBShare.png"/>
-<!-- Social Media -->
+    <!-- Social Media -->
+    <meta property="og:image" content="http://www.berea.edu/wp-content/uploads/2014/06/BCLogoFBShare.png"/>
+    <!-- Social Media -->
 
 </head>
 

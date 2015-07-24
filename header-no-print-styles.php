@@ -44,15 +44,9 @@
                 </a>
             </div>
             <div id="hdrlinksrch">
-            <div id="linkcol1">
-                    <a href="/contact-us">CONTACT US</a>
-                </div>
-            <div id="linkcol2">
-                    <a href="/directory">DIRECTORY</a>
-                </div>
-            <div id="linkcol3">
-                    <a href="/a-z-index">A-Z INDEX</a>
-                </div>
+            <div id="linkcol1"><a href="/contact-us">CONTACT US</a></div>
+            <div id="linkcol2"><a href="/directory">DIRECTORY</a></div>
+            <div id="linkcol3"><a href="/a-z-index">A-Z INDEX</a></div>
             <div id="hdrsearch">
                     <div class="search-box">
                         <form method="get" action="http://www.google.com/search">
