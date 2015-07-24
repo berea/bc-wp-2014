@@ -49,22 +49,32 @@ if ( is_singular() && get_option( 'thread_comments' ) )
             <div id="linkcol2"><a href="/directory">DIRECTORY</a></div>
             <div id="linkcol3"><a href="/a-z-index">A-Z INDEX</a></div>
             <div id="hdrsearch">
-                    <div class="search-box">
-                        <form action="https://search.berea.edu/search" method="get" name="gs" id="gs">
-                            <input type="text" size="15" class="search-field"
-                                name="q" id="s" value="Search Berea College Web Site"
-                                onfocus="if(this.value == 'Search Berea College Web Site') {this.value = '';}"
-                                onblur="if (this.value == '') {this.value = 'Search Berea College Web Site';}"/>
-                            <input name="btnG" type="submit"  value="" class="search-go" />
-                            <input type="hidden" name="ie" value="" />
-                            <input type="hidden" name="site" value="my_collection" />
-                            <input type="hidden" name="output" value="xml_no_dtd" />
-                            <input type="hidden" name="client" value="my_collection" />
-                            <input type="hidden" name="lr" value="" />
-                            <input type="hidden" name="proxystylesheet" value="my_collection" />
-                            <input type="hidden" name="oe" value="" />
-                        </form>
-                    </div>
+                <div class="search-box">
+                    <form method="get" action="http://www.google.com/search">
+                        <input type="text" size="15" class="search-field"
+                            name="q" id="s" value="Search Berea College Web Site"
+                            onfocus="if(this.value == 'Search Berea College Web Site') {this.value = '';}"
+                            onblur="if (this.value == '') {this.value = 'Search Berea College Web Site';}"/>
+                        <input name="btnG" type="submit"  value="" class="search-go" />
+                        <input type="hidden" name="sitesearch" value="www.berea.edu" />
+                    </form>
+                    <!--
+                    <form action="https://search.berea.edu/search" method="get" name="gs" id="gs">
+                        <input type="text" size="15" class="search-field"
+                            name="q" id="s" value="Search Berea College Web Site"
+                            onfocus="if(this.value == 'Search Berea College Web Site') {this.value = '';}"
+                            onblur="if (this.value == '') {this.value = 'Search Berea College Web Site';}"/>
+                        <input name="btnG" type="submit"  value="" class="search-go" />
+                        <input type="hidden" name="ie" value="" />
+                        <input type="hidden" name="site" value="my_collection" />
+                        <input type="hidden" name="output" value="xml_no_dtd" />
+                        <input type="hidden" name="client" value="my_collection" />
+                        <input type="hidden" name="lr" value="" />
+                        <input type="hidden" name="proxystylesheet" value="my_collection" />
+                        <input type="hidden" name="oe" value="" />
+                    </form>
+                    -->
+                </div>
                 </div>
           </div>
         </div>
