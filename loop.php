@@ -84,11 +84,11 @@ while ( have_posts() ) : the_post();
             <p>
                 <?php
                 printf( __( 'This gallery contains <a %1$s>%2$s photos</a>.', 'twentyten' ),
-                                'href="' . get_permalink() . '" title="'
-                                    . sprintf( esc_attr__( 'Permalink to %s', 'twentyten' ),
-                                               the_title_attribute( 'echo=0' ) )
-                                    . '" rel="bookmark"',
-                                $total_images
+                        'href="' . get_permalink() . '" title="'
+                            . sprintf( esc_attr__( 'Permalink to %s', 'twentyten' ),
+                                       the_title_attribute( 'echo=0' ) )
+                            . '" rel="bookmark"',
+                        $total_images
                 );
                 ?>
             </p>
@@ -98,21 +98,20 @@ while ( have_posts() ) : the_post();
         endif;
         ?>
 
-    <a href="<?php echo get_term_link( _x('gallery', 'gallery category slug', 'twentyten'), 'category' ); ?>"
-        title="<?php esc_attr_e( 'View posts in the Gallery category', 'twentyten' ); ?>">
-        <?php _e( 'More Galleries', 'twentyten' ); ?>
-    </a>
+        <a href="<?php echo get_term_link( _x('gallery', 'gallery category slug', 'twentyten'), 'category' ); ?>"
+            title="<?php esc_attr_e( 'View posts in the Gallery category', 'twentyten' ); ?>">
+            <?php _e( 'More Galleries', 'twentyten' ); ?>
+        </a>
 
-    |
+        |
 
-    <?php
-    comments_popup_link( __( 'Leave a comment', 'twentyten' ),
-                         __( '1 Comment', 'twentyten' ),
-                         __( '% Comments', 'twentyten' ) );
-    edit_post_link( __( 'Edit', 'twentyten' ), '|', '' );
+        <?php
+        comments_popup_link( __( 'Leave a comment', 'twentyten' ),
+                             __( '1 Comment', 'twentyten' ),
+                             __( '% Comments', 'twentyten' ) );
+        edit_post_link( __( 'Edit', 'twentyten' ), '|', '' );
 
- /* How to display posts in the asides category */
-
+     /* How to display posts in the asides category */
     elseif ( in_category( _x('asides', 'asides category slug', 'twentyten') ) ) :
 
         if ( is_archive() || is_search() ) : // Display excerpts for archives and search.

@@ -23,14 +23,13 @@ if ( have_posts() ) : ?>
      */
      get_template_part( 'loop', 'search' );
 else :
-?>
+    ?>
 
-    <h2><?php _e( 'Nothing Found', 'twentyten' ); ?></h2>
-    <p><?php _e( 'Sorry, but nothing matched your search criteria. Please try again with some different keywords.', 'twentyten' ); ?></p>
+        <h2><?php _e( 'Nothing Found', 'twentyten' ); ?></h2>
+        <p><?php _e( 'Sorry, but nothing matched your search criteria. Please try again with some different keywords.', 'twentyten' ); ?></p>
 
 <?php
-
-get_search_form();
+    get_search_form();
 endif;
 
 get_sidebar();
