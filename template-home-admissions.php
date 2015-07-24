@@ -44,8 +44,8 @@
         <div class="col2">&nbsp;</div>
         <div class="col3">
             <div id="admissions-margins-line-38">
-                <a href="http://www.berea.edu/admissions/applying-for-admission/">
-                    <img src="https://www.berea.edu/admissions/files/2015/06/ApplyTodayButtonV2016b.png">
+                <a href="//www.berea.edu/admissions/applying-for-admission/">
+                    <img src="//www.berea.edu/admissions/files/2015/06/ApplyTodayButtonV2016b.png">
                 </a>
             </div>
         </div>

@@ -28,7 +28,7 @@
     <!-- stylesheets -->
 
     <!-- Social Media -->
-    <meta property="og:image" content="http://www.berea.edu/wp-content/uploads/2014/06/BCLogoFBShare.png"/>
+    <meta property="og:image" content="//www.berea.edu/wp-content/uploads/2014/06/BCLogoFBShare.png"/>
     <!-- Social Media -->
 
 </head>

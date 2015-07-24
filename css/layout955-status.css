@@ -15,7 +15,7 @@
 
 #status ul li.up
 {
-background-image: url(http://www.berea.edu/images/typography/checkmark009B48.png);
+background-image: url(//www.berea.edu/images/typography/checkmark009B48.png);
 background-repeat: no-repeat;
 background-position: 0 8px;
 padding-left: 25px;
@@ -23,7 +23,7 @@ padding-left: 25px;
 
 #status ul li.problem
 {
-background-image: url(http://www.berea.edu/images/typography/exclamationmarkDB7700.png);
+background-image: url(//www.berea.edu/images/typography/exclamationmarkDB7700.png);
 background-repeat: no-repeat;
 background-position: 0 8px;
 padding-left: 25px;
@@ -31,7 +31,7 @@ padding-left: 25px;
 
 #status ul li.down
 {
-background-image: url(http://www.berea.edu/images/typography/letterxDB3100.png);
+background-image: url(//www.berea.edu/images/typography/letterxDB3100.png);
 background-repeat: no-repeat;
 background-position: 0 8px;
 padding-left: 25px;
