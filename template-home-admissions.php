@@ -24,9 +24,10 @@
 
         <div class="col4">
             <a href="https://bereaquickestimator.studentaidcalculator.com">
-                <div id="calculator-box">
-                    <div id="estimate-button"></div>
-                </div>
+                <img src="<?php echo bloginfo('template_url'); ?>/images/financial_eligibility.png">
+            </a>
+            <a href="/admissions/visit-campus">
+                <img src="<?php echo bloginfo('template_url'); ?>/images/visit_campus.png">
             </a>
         </div>
         <div class="clearboth"></div>
