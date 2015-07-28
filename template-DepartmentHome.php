@@ -6,8 +6,11 @@ get_header(); ?>
 
 <div id="middlepgbg">
     <div id="sectiontitle">
-        <?php bloginfo( $show ); ?>
+        <p><?php bloginfo( $show ); ?></p>
+        <div class="clearleft"></div>
+        <div class="clearboth"></div>
     </div>
+
     <div id="middle">
       <?php get_sidebar(); ?>
         <div id="col2">
@@ -77,6 +80,7 @@ get_header(); ?>
             </div>
             <div class="clearboth"></div>
         </div>
+        <div class="clearboth"></div>
     </div>
 </div>
 
