@@ -23,12 +23,8 @@
         ?>
 
         <div class="col4">
-            <a href="https://bereaquickestimator.studentaidcalculator.com">
-                <img src="<?php echo bloginfo('template_url'); ?>/images/financial_eligibility.png">
-            </a>
-            <a href="/admissions/visit-campus">
-                <img src="<?php echo bloginfo('template_url'); ?>/images/visit_campus.png">
-            </a>
+            <a href="https://bereaquickestimator.studentaidcalculator.com"><img src="<?php echo bloginfo('template_url'); ?>/images/financial_eligibility.png"></a><br />
+            <a href="/admissions/visit-campus"><img src="<?php echo bloginfo('template_url'); ?>/images/visit_campus.png"></a>
         </div>
         <div class="clearboth"></div>
     </div>
