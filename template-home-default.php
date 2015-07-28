@@ -21,4 +21,8 @@ get_header(); ?>
         edit_post_link( __( 'Edit', 'twentyten' ), '', '' );
     endwhile;
     //End of the LOOP
-get_footer(); ?>
+    ?>
+    </div>
+</div>
+
+<?php get_footer(); ?>
