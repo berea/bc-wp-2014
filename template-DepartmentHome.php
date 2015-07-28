@@ -34,19 +34,20 @@ get_header(); ?>
                     <?php
                     // Begin News widget area
                     if ( is_active_sidebar( 'news' ) ) :
-                    ?>
-                    <div id="news">
-                      <div class="adbox-200px bgcolor-mineralgrey">
-                        <div class="adbox-content">
-                          <?php dynamic_sidebar( 'news' ); ?>
-                          <div class="adbox-more"> » <a href="<?php $url = site_url('/news/', 'http');
-                                echo $url;?>">more news</a> </div>
-                          <div class="adbox-200px-bottom"></div>
+                        ?>
+                        <div id="news">
+                          <div class="adbox-200px bgcolor-mineralgrey">
+                            <div class="adbox-content">
+                              <?php dynamic_sidebar( 'news' ); ?>
+                              <div class="adbox-more"> » <a href="<?php $url = site_url('/news/', 'http');
+                                    echo $url;?>">more news</a> </div>
+                              <div class="adbox-200px-bottom"></div>
+                            </div>
+                          </div>
                         </div>
-                      </div>
-                    </div>
-                    <?php
-                    endif; // End News widget area
+                        <?php
+                    endif;
+                    // End News widget area
 
                     // Begin Events widget area
                     if ( is_active_sidebar( 'events' ) ) : ?>
@@ -62,7 +63,8 @@ get_header(); ?>
                             </div>
                         </div>
                       <?php
-                    endif; // End Events widget area
+                    endif;
+                    // End Events widget area
 
                     // Begin Right widget area
                     if ( is_active_sidebar( 'right-sidebar' ) ) :
@@ -76,7 +78,6 @@ get_header(); ?>
             <div class="clearboth"></div>
         </div>
     </div>
-</div>
 </div>
 
 <?php get_footer(); ?>
