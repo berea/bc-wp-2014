@@ -56,7 +56,7 @@
                             onfocus="if(this.value == 'Search Berea College Web Site') {this.value = '';}"
                             onblur="if (this.value == '') {this.value = 'Search Berea College Web Site';}"/>
                         <input name="btnG" type="submit"  value="" class="search-go" />
-                        <input type="hidden" name="sitesearch" value="www.berea.edu" />
+                        <input type="hidden" name="sitesearch" value="berea.edu" />
                     </form>
                     <?php
                     /*********************************
