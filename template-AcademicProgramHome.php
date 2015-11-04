@@ -48,7 +48,7 @@ get_header(); ?>
               // Begin Events widget area
                 if ( is_active_sidebar( 'events' ) ) : ?>
               <div id="events">
-                <div class="adbox-200px bgcolor-leafgreen">
+                <div class="adbox-200px bgcolor-mineralgrey">
                   <div class="adbox-content">
                     <?php dynamic_sidebar( 'events' ); ?>
                     <div class="adbox-more"> » <a href="<?php $url = site_url('/events/', 'http');
