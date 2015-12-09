@@ -49,7 +49,7 @@
             <div id="linkcol3"><a href="/a-z-index">A-Z INDEX</a></div>
             <div id="hdrsearch">
                 <div class="search-box">
-                    <form method="get" action="http://www.google.com/search">
+                    <form method="get" action="https://www.google.com/search">
                         <input type="text" size="15" class="search-field"
                             name="q" id="s" value="Search Berea College Web Site"
                             onfocus="if(this.value == 'Search Berea College Web Site') {this.value = '';}"
