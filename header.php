@@ -13,7 +13,6 @@
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 
     <!-- Scripts -->
-    <script type="text/javascript" src="/scripts/email_link.js"></script>
     <?php
         if ( is_singular() && get_option( 'thread_comments' ) )
             wp_enqueue_script( 'comment-reply' ); wp_head();
