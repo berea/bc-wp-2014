@@ -14,7 +14,7 @@ get_header();
 <div id="middlepgbg">
     <div id="middle1col">
         <div id="hpcontent">
-            <h1><img src="/wp-content/themes/BereaCollege/images/error-pages/squirrel2-400x300.jpg" alt="Squirrel" width="400" height="300" class="photo_right" />Oops! We cannot find the page.</h1>
+            <h1><img src="<?php echo get_template_directory_uri(); ?>/images/error-pages/squirrel2-400x300.jpg" alt="Squirrel" width="400" height="300" class="photo_right" />Oops! We cannot find the page.</h1>
             <p>You may not be able to find this page because of:</p>
           <ul>
             <li>An <strong>out-of-date Bookmark or Favorite</strong>.</li>

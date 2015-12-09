@@ -39,7 +39,7 @@
         <div id="hdr">
             <div id="logo">
                 <a href="/">
-                    <img src="/wp-content/themes/BereaCollege/images/hdr-bclogowdip.png"
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/hdr-bclogowdip.png"
                         border="0" alt="Berea College Logo" />
                 </a>
             </div>
