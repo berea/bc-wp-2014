@@ -35,18 +35,18 @@
                 <p class="heading">FOLLOW BEREA</p>
                 <p class="subheadingfirst">
                     <a href="http://www.facebook.com/pages/Berea-KY/Berea-College/39126548204">
-                        <img src="/wp-content/themes/BereaCollege/images/footer/facebook32x32.png" alt="Berea on Facebook" width="32" height="32" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/footer/facebook32x32.png" alt="Berea on Facebook" width="32" height="32" />
                     </a>
                     <a href="http://www.youtube.com/berea">
-                        <img src="/wp-content/themes/BereaCollege/images/footer/youtube32x32.png" alt="Berea on YouTube" width="32" height="32" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/footer/youtube32x32.png" alt="Berea on YouTube" width="32" height="32" />
                     </a>
                     <a href="http://twitter.com/bereacollege">
-                        <img src="/wp-content/themes/BereaCollege/images/footer/twitter32x32.png" alt="Berea on Twitter" width="32" height="32" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/footer/twitter32x32.png" alt="Berea on Twitter" width="32" height="32" />
                     </a>
                 </p>
                 <p class="subheadingfirst">
                     <a href="http://www.blogtalkradio.com/bereacollege">
-                        <img src="/wp-content/themes/BereaCollege/images/footer/podcasts32x32.png" alt="Berea Podcasts" width="33" height="32" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/footer/podcasts32x32.png" alt="Berea Podcasts" width="33" height="32" />
                     </a>
                 </p>
             </div>
@@ -54,17 +54,17 @@
                 <p class="heading">Distinctly Berean</p>
                 <div class="margin-top-6px">
                     <a href="http://www.boonetavernhotel.com">
-                        <img src="/wp-content/themes/BereaCollege/images/footer/boonetavern165x59.png" alt="Historic Boone Tavern Hotel and Restaurant of Berea College" width="165" height="59" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/footer/boonetavern165x59.png" alt="Historic Boone Tavern Hotel and Restaurant of Berea College" width="165" height="59" />
                     </a>
                 </div>
                 <div>
                     <a href="http://bereacollegecrafts.com">
-                        <img src="/wp-content/themes/BereaCollege/images/footer/studentcrafts165x42.png" alt="Berea College Student Crafts" width="165" height="42" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/footer/studentcrafts165x42.png" alt="Berea College Student Crafts" width="165" height="42" />
                     </a>
                 </div>
                 <div>
                     <a href="/conference-services/">
-                        <img src="/wp-content/themes/BereaCollege/images/footer/conference-services-165x42.png" alt="Berea College Conference Services" width="165" height="42" />
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/footer/conference-services-165x42.png" alt="Berea College Conference Services" width="165" height="42" />
                     </a>
                 </div>
             </div>
@@ -80,7 +80,7 @@
             </ul>
         </div>
         <div id="printcopyright">
-            <p><img src="/wp-content/themes/BereaCollege/images/footer/bclogo1.5in.gif" alt="Berea College Logo" width="127" height="122" class="photo_left_nobrdr" /></p>
+            <p><img src="<?php echo get_template_directory_uri(); ?>/images/footer/bclogo1.5in.gif" alt="Berea College Logo" width="127" height="122" class="photo_left_nobrdr" /></p>
             <p>&nbsp;</p>
             <p>Copyright &copy; 2014 Berea College</p>
         </div>
