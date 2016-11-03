@@ -58,7 +58,7 @@
                     </a>
                 </div>
                 <div>
-                    <a href="http://bereacollegecrafts.com">
+                    <a href="http://www.bereacrafts.com">
                         <img src="<?php echo get_template_directory_uri(); ?>/images/footer/studentcrafts165x42.png" alt="Berea College Student Crafts" width="165" height="42" />
                     </a>
                 </div>
